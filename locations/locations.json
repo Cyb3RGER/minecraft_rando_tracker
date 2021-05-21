@@ -1,0 +1,1780 @@
+[
+  {
+    "name": "Overworld",
+    "children": [
+      {
+        "name": "Minecraft",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Minecraft",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Getting Wood",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Getting Wood",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Time to Mine!",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stone Age",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Stone Age",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stone Age",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Getting an Upgrade",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 402,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Getting an Upgrade",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hot Topic",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 402,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hot Topic",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Acquire Hardware",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 486,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Acquire Hardware",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Suit Up",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 570,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Suit Up",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hot Stuff",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 570,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hot Stuff",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Isn't it Iron Pick",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 570,
+            "y": 234
+          }
+        ],
+        "sections": [
+          {
+            "name": "Isn't it Iron Pick",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Not Today. Thank You",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 654,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Not Today. Thank You",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Bucket Challenge",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 654,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ice Bucket Challenge",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Diamonds!",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 654,
+            "y": 234
+          }
+        ],
+        "sections": [
+          {
+            "name": "Diamonds!",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "We Need to Go Deeper",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "We Need to Go Deeper",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1,
+            "hosted_item": "nether"
+          }
+        ]
+      },
+      {
+        "name": "Cover Me With Diamonds",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 234
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cover Me With Diamonds",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Enchanter",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "Enchanter",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Zombie Doctor",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 66
+          }
+        ],
+        "sections": [
+          {
+            "name": "Zombie Doctor",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Eye Spy",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Eye Spy",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Overkill",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 234
+          }
+        ],
+        "sections": [
+          {
+            "name": "Overkill",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Librarian",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "Librarian",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The End?",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "The End?",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1,
+            "hosted_item": "end"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nether",
+    "children": [
+      {
+        "name": "Nether",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 402
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nether",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Subspace Bubble",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "Subspace Bubble",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Oh Shiny",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 402
+          }
+        ],
+        "sections": [
+          {
+            "name": "Oh Shiny",
+            "access_rules": [
+              "nether",
+              "bastion"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Return to Sender",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "Return to Sender",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Uneasy Alliance",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "Uneasy Alliance",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hot Tourist Destinations",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 234
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hot Tourist Destinations",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "This Boat Has Legs",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "This Boat Has Legs",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Those Were the Days",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "Those Were the Day",
+            "access_rules": [
+              "nether",
+              "bastion"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "War Pigs",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "War Pigs",
+            "access_rules": [
+              "nether",
+              "bastion"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Not Quite \"Nine\" Lives",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 234
+          }
+        ],
+        "sections": [
+          {
+            "name": "Not Quite \"Nine\" Lives",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Who is Cutting Onions?",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "Who is Cutting Onions?",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "A Terrible Fortress",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 402
+          }
+        ],
+        "sections": [
+          {
+            "name": "A Terrible Fortress",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hidden in the Depths",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hidden in the Depths",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Country Lode, Take Me Home",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "Country Lode, Take Me Home",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Spooky Scary Skeleton",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 402
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spooky Scary Skeleton",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Into Fire",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "Into Fire",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cover Me in Debris",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cover Me in Debris",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Withering Heights",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 402,
+            "y": 402
+          }
+        ],
+        "sections": [
+          {
+            "name": "Withering Heights",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Local Brewery",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 402,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "Local Brewery",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bring Home The Beacon",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 486,
+            "y": 402
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bring Home The Beacon",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "A Furious Coktail",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 486,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "A Furious Coktail",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Beaconator",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 570,
+            "y": 402
+          }
+        ],
+        "sections": [
+          {
+            "name": "Beaconator",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "How Did We Get Here?",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 570,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "How Did We Get Here?",
+            "access_rules": [
+              "nether"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The End",
+    "children": [
+      {
+        "name": "The End",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "The End",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Remote Gateaway",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "Remote Gateaway",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The End... Again...",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 654
+          }
+        ],
+        "sections": [
+          {
+            "name": "The End... Again...",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The City At The End Of The Game",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "The City At The End Of The Game",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Free The End",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "Free The End",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Next Generation",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 654
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Next Generation",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sky's The Limit",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 486
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sky's The Limit",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Great View From Up Here",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "Great View From Up Here",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "You Need a Mint",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 654
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Need a Mint",
+            "access_rules": [
+              "end"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adventure",
+    "children": [
+      {
+        "name": "Adventure",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Adventure",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Two Birds, One Arrow",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 738
+          }
+        ],
+        "sections": [
+          {
+            "name": "Two Birds, One Arrow",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "When Pigs Fly",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "When Pigs Fly",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sticky Situation",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sticky Situation",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sweet Dreams",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sweet Dreams",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Adventuring Time",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 66,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "Adventuring Time",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Who's the Pillager Now?",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 738
+          }
+        ],
+        "sections": [
+          {
+            "name": "Who's the Pillager Now?",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ol' Betsy",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ol' Betsy",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "What a Deal!",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "What a Deal!",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hired Help",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 150,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hired Help",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Arbalistic",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 738
+          }
+        ],
+        "sections": [
+          {
+            "name": "Arbalistic",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "On A Rail",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "On A Rail",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Time to Strike!",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Time to Strike!",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Voluntary Exile",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "Voluntary Exile",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hero of the Village",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 234,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hero of the Village",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Monster Hunted",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monster Hunted",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Monster Hunter",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monster Hunter",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "A Throwaway Joke",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "A Throwaway Joke",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Very Very Frightening",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 318,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "Very Very Frightening",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Postmortal",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 402,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Postmortal",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Take Aim",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 402,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Take Aim",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sniper Duel",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 402,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sniper Duel",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bullseye",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 486,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bullseye",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Husbandry",
+    "children": [
+      {
+        "name": "Husbandry",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Husbandry",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "A Balanced Diet",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 654,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "A Balanced Diet",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bake Bread",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 654,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bake Bread",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Lie",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 654,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Lie",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Overpowered",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 654,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "Overpowered",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Serious Dedication",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Serious Dedication",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "A Seedy Place",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "A Seedy Place",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fishy Business",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fishy Business",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tactical Fishing",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 738,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tactical Fishing",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bee Our Guest",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bee Our Guest",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Best Friend Forever",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "Best Friend Forever",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "A Complete Catalogue",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 822,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "A Complete Catalogue",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Total Beelocation",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Total Beelocation",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cow Tipper",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 906
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cow Tipper",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Parrots and the Bats",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Parrots and the Bats",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Two by Two",
+        "map_locations": [
+          {
+            "map": "all",
+            "x": 906,
+            "y": 1074
+          }
+        ],
+        "sections": [
+          {
+            "name": "Two by Two",
+            "access_rules": [
+              "overworld"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

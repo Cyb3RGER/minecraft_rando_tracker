@@ -1,0 +1,23 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#212121",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "layout",
+          "dock": "left",
+          "key": "shared_item_grid"
+        },
+        {
+          "type": "map",
+          "maps": [
+            "all"
+          ]
+        }
+      ]
+    }
+  }
+}

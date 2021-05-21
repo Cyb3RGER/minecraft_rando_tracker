@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Overworld",
+    "type": "static",
+    "img": "images/items/overworld.png",
+    "codes": "overworld"
+  },
+  {
+    "name": "Nether",
+    "type": "toggle",
+    "img": "images/items/nether.png",
+    "codes": "nether"
+  },
+  {
+    "name": "The End",
+    "type": "toggle",
+    "img": "images/items/end.png",
+    "codes": "end"
+  },
+  {
+    "name": "Village",
+    "type": "toggle",
+    "img": "images/items/village.png",
+    "codes": "village"
+  },
+  {
+    "name": "Pillager Outpost",
+    "type": "toggle",
+    "img": "images/items/outpost.png",
+    "codes": "outpost"
+  },
+  {
+    "name": "Bastion",
+    "type": "toggle",
+    "img": "images/items/bastion.png",
+    "codes": "bastion"
+  },
+  {
+    "name": "Nether Fortress",
+    "type": "toggle",
+    "img": "images/items/fortress.png",
+    "codes": "fortress"
+  },
+  {
+    "name": "End City",
+    "type": "toggle",
+    "img": "images/items/city.png",
+    "codes": "city"
+  },
+  {
+    "name": "Archery",
+    "type": "toggle",
+    "img": "images/items/archery.png",
+    "codes": "archery"
+  },
+  {
+    "name": "Ingot Crafting",
+    "type": "toggle",
+    "img": "images/items/ingots.png",
+    "codes": "ingots"
+  },
+  {
+    "name": "Resource Blocks",
+    "type": "toggle",
+    "img": "images/items/blocks.png",
+    "codes": "blocks"
+  },
+  {
+    "name": "Brewing",
+    "type": "toggle",
+    "img": "images/items/brewing.png",
+    "codes": "brewing"
+  },
+  {
+    "name": "Enchanting",
+    "type": "toggle",
+    "img": "images/items/enchanting.png",
+    "codes": "enchanting"
+  },
+  {
+    "name": "Bucket",
+    "type": "toggle",
+    "img": "images/items/bucket.png",
+    "codes": "bucket"
+  },
+  {
+    "name": "Flint and steel",
+    "type": "toggle",
+    "img": "images/items/flint.png",
+    "codes": "flint"
+  },
+  {
+    "name": "Bed",
+    "type": "toggle",
+    "img": "images/items/bed.png",
+    "codes": "bed"
+  },
+  {
+    "name": "Bottles",
+    "type": "toggle",
+    "img": "images/items/bottles.png",
+    "codes": "bottles"
+  },
+  {
+    "name": "Shield",
+    "type": "toggle",
+    "img": "images/items/shield.png",
+    "codes": "shield"
+  },
+  {
+    "name": "Fishing Rod",
+    "type": "toggle",
+    "img": "images/items/rod.png",
+    "codes": "rod"
+  },
+  {
+    "name": "Campfire",
+    "type": "toggle",
+    "img": "images/items/campfire.png",
+    "codes": "campfire"
+  },
+  {
+    "name": "Weapons",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/weapons.png",
+        "codes": "weapons",
+        "secondary_codes": "weapons_cobble"
+      },
+      {
+        "img": "images/items/weaponsB.png",
+        "codes": "weapons",
+        "secondary_codes": "weapons_iron"
+      },
+      {
+        "img": "images/items/weaponsC.png",
+        "codes": "weapons",
+        "secondary_codes": "weapons_diamond"
+      }
+    ]
+  },
+  {
+    "name": "Tools",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/tools.png",
+        "codes": "tools",
+        "secondary_codes": "tools_cobble"
+      },
+      {
+        "img": "images/items/toolsB.png",
+        "codes": "tools",
+        "secondary_codes": "tools_iron"
+      },
+      {
+        "img": "images/items/toolsC.png",
+        "codes": "tools",
+        "secondary_codes": "tools_diamond"
+      }
+    ]
+  },
+  {
+    "name": "Armor",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/armor.png",
+        "codes": "armor",
+        "secondary_codes": "armor_iron"
+      },
+      {
+        "img": "images/items/armorB.png",
+        "codes": "armor",
+        "secondary_codes": "armor_diamond"
+      }
+    ]
+  },
+  {
+    "name": "Netherite Scraps",
+    "type": "consumable",
+    "img": "images/items/scraps.png",
+    "codes": "scraps",
+    "max_quantity": 2
+  },
+  {
+    "name": "Ender Pearls",
+    "type": "consumable",
+    "img": "images/items/pearl.png",
+    "codes": "pearls",
+    "max_quantity": 4
+  }
+]
