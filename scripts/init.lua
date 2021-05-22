@@ -7,6 +7,9 @@ Tracker:AddMaps("maps/maps.json")
 Tracker:AddItems("items/items.json")
 
 -- Logic
+ScriptHost:LoadScript("scripts/logic.lua")
+
+-- Locations
 Tracker:AddLocations("locations/locations.json")
 
 -- Layout

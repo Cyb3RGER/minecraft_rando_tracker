@@ -91,7 +91,7 @@
           {
             "name": "Getting an Upgrade",
             "access_rules": [
-              "overworld"
+              "overworld,$cobble_tools"
             ],
             "item_count": 1
           }
@@ -110,7 +110,7 @@
           {
             "name": "Hot Topic",
             "access_rules": [
-              "overworld"
+              "overworld,ingots"
             ],
             "item_count": 1
           }
@@ -129,7 +129,7 @@
           {
             "name": "Acquire Hardware",
             "access_rules": [
-              "overworld"
+              "overworld,$process_iron"
             ],
             "item_count": 1
           }
@@ -148,7 +148,7 @@
           {
             "name": "Suit Up",
             "access_rules": [
-              "overworld"
+              "overworld,$iron_armor"
             ],
             "item_count": 1
           }
@@ -167,7 +167,7 @@
           {
             "name": "Hot Stuff",
             "access_rules": [
-              "overworld"
+              "overworld,$bucket"
             ],
             "item_count": 1
           }
@@ -186,7 +186,7 @@
           {
             "name": "Isn't it Iron Pick",
             "access_rules": [
-              "overworld"
+              "overworld,$iron_tools"
             ],
             "item_count": 1
           }
@@ -205,7 +205,7 @@
           {
             "name": "Not Today. Thank You",
             "access_rules": [
-              "overworld"
+              "overworld,$shield"
             ],
             "item_count": 1
           }
@@ -224,7 +224,7 @@
           {
             "name": "Ice Bucket Challenge",
             "access_rules": [
-              "overworld"
+              "overworld,$diamond_tools"
             ],
             "item_count": 1
           }
@@ -243,7 +243,7 @@
           {
             "name": "Diamonds!",
             "access_rules": [
-              "overworld"
+              "overworld,$iron_tools"
             ],
             "item_count": 1
           }
@@ -262,7 +262,7 @@
           {
             "name": "We Need to Go Deeper",
             "access_rules": [
-              "overworld"
+              "overworld,$nether_access"
             ],
             "item_count": 1,
             "hosted_item": "nether"
@@ -282,7 +282,7 @@
           {
             "name": "Cover Me With Diamonds",
             "access_rules": [
-              "overworld"
+              "overworld,$diamond_armor"
             ],
             "item_count": 1
           }
@@ -301,7 +301,7 @@
           {
             "name": "Enchanter",
             "access_rules": [
-              "overworld"
+              "overworld,$enchant"
             ],
             "item_count": 1
           }
@@ -320,7 +320,7 @@
           {
             "name": "Zombie Doctor",
             "access_rules": [
-              "overworld"
+              "overworld,$potion_brewing"
             ],
             "item_count": 1
           }
@@ -339,7 +339,7 @@
           {
             "name": "Eye Spy",
             "access_rules": [
-              "overworld"
+              "overworld,$potion_brewing,[pearls:1]"
             ],
             "item_count": 1
           }
@@ -358,7 +358,7 @@
           {
             "name": "Overkill",
             "access_rules": [
-              "overworld"
+              "overworld,$potion_brewing"
             ],
             "item_count": 1
           }
@@ -377,7 +377,7 @@
           {
             "name": "Librarian",
             "access_rules": [
-              "overworld"
+              "overworld,enchanting"
             ],
             "item_count": 1
           }
@@ -396,7 +396,7 @@
           {
             "name": "The End?",
             "access_rules": [
-              "overworld"
+              "overworld,$potion_brewing,[pearls:4]"
             ],
             "item_count": 1,
             "hosted_item": "end"
@@ -659,7 +659,7 @@
         ]
       },
       {
-        "name": "Country Lode, Take Me Home",
+        "name": "Country Lode,Take Me Home",
         "map_locations": [
           {
             "map": "all",
@@ -669,7 +669,7 @@
         ],
         "sections": [
           {
-            "name": "Country Lode, Take Me Home",
+            "name": "Country Lode,Take Me Home",
             "access_rules": [
               "nether"
             ],
@@ -1049,7 +1049,7 @@
         ]
       },
       {
-        "name": "Two Birds, One Arrow",
+        "name": "Two Birds,One Arrow",
         "map_locations": [
           {
             "map": "all",
@@ -1059,7 +1059,7 @@
         ],
         "sections": [
           {
-            "name": "Two Birds, One Arrow",
+            "name": "Two Birds,One Arrow",
             "access_rules": [
               "overworld"
             ],

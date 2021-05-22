@@ -125,18 +125,15 @@
     "stages": [
       {
         "img": "images/items/weapons.png",
-        "codes": "weapons",
-        "secondary_codes": "weapons_cobble"
+        "codes": "weapons,weapons_cobble"
       },
       {
         "img": "images/items/weaponsB.png",
-        "codes": "weapons",
-        "secondary_codes": "weapons_iron"
+        "codes": "weapons,weapons_iron"
       },
       {
         "img": "images/items/weaponsC.png",
-        "codes": "weapons",
-        "secondary_codes": "weapons_diamond"
+        "codes": "weapons,weapons_diamond"
       }
     ]
   },
@@ -146,18 +143,15 @@
     "stages": [
       {
         "img": "images/items/tools.png",
-        "codes": "tools",
-        "secondary_codes": "tools_cobble"
+        "codes": "tools,tools_cobble"
       },
       {
         "img": "images/items/toolsB.png",
-        "codes": "tools",
-        "secondary_codes": "tools_iron"
+        "codes": "tools,tools_iron"
       },
       {
         "img": "images/items/toolsC.png",
-        "codes": "tools",
-        "secondary_codes": "tools_diamond"
+        "codes": "tools,tools_diamond"
       }
     ]
   },
@@ -167,13 +161,11 @@
     "stages": [
       {
         "img": "images/items/armor.png",
-        "codes": "armor",
-        "secondary_codes": "armor_iron"
+        "codes": "armor,armor_iron"
       },
       {
         "img": "images/items/armorB.png",
-        "codes": "armor",
-        "secondary_codes": "armor_diamond"
+        "codes": "armor,armor_diamond"
       }
     ]
   },
