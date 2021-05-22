@@ -182,5 +182,19 @@
     "img": "images/items/pearl.png",
     "codes": "pearls",
     "max_quantity": 4
+  },
+  {
+    "name": "Dragon",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/dragon.png",
+        "codes": "dragon"
+      },
+      {
+        "img": "images/items/dragonB.png",
+        "codes": "dragon,dragon_kill"
+      }
+    ]
   }
 ]

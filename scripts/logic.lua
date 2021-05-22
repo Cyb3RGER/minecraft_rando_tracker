@@ -130,11 +130,16 @@ function nether_access()
     return 0
 end
 
-function can_fight_blaze()
-    if (Tracker:ProviderCountForCode("fortress") > 0) then
-        if ((cobble_weapons() + iron_armor()) > 1 or (cobble_weapons() + shield()) > 1) then
+function basic_fight()
+    if ((cobble_weapons() + iron_armor()) > 1 or (cobble_weapons() + shield()) > 1) then
             return 1
-        end
+    end
+    return 0
+end
+
+function can_fight_blaze()
+    if ((Tracker:ProviderCountForCode("fortress") + basic_fight()) > 1) then
+        return 1
     end
     return 0
 end
@@ -142,6 +147,49 @@ end
 function potion_brewing()
     if ((can_fight_blaze() + Tracker:ProviderCountForCode("brewing") + Tracker:ProviderCountForCode("bottles")) > 2) then
         return 1
+    end
+    return 0
+end
+
+function can_fight_wither()
+    if ((Tracker:ProviderCountForCode("fortress") + Tracker:ProviderCountForCode("nether")) > 1) then
+        if ((potion_brewing() + diamonds_weapons() + enchant() + diamond_armor()) > 3) then
+            return 1
+        end
+    end
+    return 0
+end
+
+function can_fight_raid()
+    if (Tracker:ProviderCountForCode("village") > 0) then
+        if ((iron_weapons() + iron_armor() + shield()) > 2) then
+            return 1
+        end
+    end
+    return 0
+end
+
+function can_fight_dragon()
+    if ((Tracker:ProviderCountForCode("end") + Tracker:ProviderCountForCode("dragon")) > 1) then
+        if ((iron_armor() + iron_weapons() + Tracker:ProviderCountForCode("archery")) > 2) then
+            return 1
+        end
+    end
+    return 0
+end
+
+function can_adventure()
+    if (cobble_weapons() > 0) then
+        if ((Tracker:ProviderCountForCode("ingots") + Tracker:ProviderCountForCode("campfire")) > 0) then
+           return 1
+        end
+    end
+    return 0
+end
+
+function crossbow()
+    if (process_iron() + Tracker:ProviderCountForCode("archery") > 1) then
+       return 1
     end
     return 0
 end

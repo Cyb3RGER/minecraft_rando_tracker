@@ -459,8 +459,8 @@
           {
             "name": "Oh Shiny",
             "access_rules": [
-              "nether",
-              "bastion"
+              "nether,ingots",
+              "bastion, ingots"
             ],
             "item_count": 1
           }
@@ -498,7 +498,7 @@
           {
             "name": "Uneasy Alliance",
             "access_rules": [
-              "nether"
+              "nether,$diamond_tools,flint,rod"
             ],
             "item_count": 1
           }
@@ -517,7 +517,7 @@
           {
             "name": "Hot Tourist Destinations",
             "access_rules": [
-              "nether"
+              "nether,rod,$basic_fight"
             ],
             "item_count": 1
           }
@@ -536,7 +536,7 @@
           {
             "name": "This Boat Has Legs",
             "access_rules": [
-              "nether"
+              "nether,rod,$basic_fight"
             ],
             "item_count": 1
           }
@@ -555,8 +555,7 @@
           {
             "name": "Those Were the Day",
             "access_rules": [
-              "nether",
-              "bastion"
+              "bastion,$nether_access"
             ],
             "item_count": 1
           }
@@ -575,8 +574,7 @@
           {
             "name": "War Pigs",
             "access_rules": [
-              "nether",
-              "bastion"
+              "bastion,$basic_fight"
             ],
             "item_count": 1
           }
@@ -595,7 +593,7 @@
           {
             "name": "Not Quite \"Nine\" Lives",
             "access_rules": [
-              "nether"
+              "nether,$nether_access,blocks"
             ],
             "item_count": 1
           }
@@ -614,7 +612,7 @@
           {
             "name": "Who is Cutting Onions?",
             "access_rules": [
-              "nether"
+              "[nether],$nether_access"
             ],
             "item_count": 1
           }
@@ -633,7 +631,7 @@
           {
             "name": "A Terrible Fortress",
             "access_rules": [
-              "nether"
+              "fortress"
             ],
             "item_count": 1
           }
@@ -652,7 +650,7 @@
           {
             "name": "Hidden in the Depths",
             "access_rules": [
-              "nether"
+              "nether,[$potion_brewing],$diamond_tools,[bed]"
             ],
             "item_count": 1
           }
@@ -671,7 +669,7 @@
           {
             "name": "Country Lode,Take Me Home",
             "access_rules": [
-              "nether"
+              "nether,[$potion_brewing],$diamond_tools,[bed]"
             ],
             "item_count": 1
           }
@@ -690,7 +688,7 @@
           {
             "name": "Spooky Scary Skeleton",
             "access_rules": [
-              "nether"
+              "fortress,$basic_fight"
             ],
             "item_count": 1
           }
@@ -709,7 +707,7 @@
           {
             "name": "Into Fire",
             "access_rules": [
-              "nether"
+              "fortress,$basic_fight"
             ],
             "item_count": 1
           }
@@ -728,7 +726,7 @@
           {
             "name": "Cover Me in Debris",
             "access_rules": [
-              "nether"
+              "nether,$diamond_armor,scraps:2,[$potion_brewing],[$diamond_tools],[bed]"
             ],
             "item_count": 1
           }
@@ -747,7 +745,7 @@
           {
             "name": "Withering Heights",
             "access_rules": [
-              "nether"
+              "$can_fight_wither"
             ],
             "item_count": 1
           }
@@ -766,7 +764,7 @@
           {
             "name": "Local Brewery",
             "access_rules": [
-              "nether"
+              "fortress,$potion_brewing"
             ],
             "item_count": 1
           }
@@ -785,7 +783,7 @@
           {
             "name": "Bring Home The Beacon",
             "access_rules": [
-              "nether"
+              "$can_fight_wither,blocks"
             ],
             "item_count": 1
           }
@@ -804,7 +802,7 @@
           {
             "name": "A Furious Coktail",
             "access_rules": [
-              "nether"
+              "nether,village,rod,$potion_brewing,$can_fight_wither,blocks"
             ],
             "item_count": 1
           }
@@ -823,7 +821,7 @@
           {
             "name": "Beaconator",
             "access_rules": [
-              "nether"
+              "$can_fight_wither,$diamond_tools,blocks"
             ],
             "item_count": 1
           }
@@ -842,7 +840,7 @@
           {
             "name": "How Did We Get Here?",
             "access_rules": [
-              "nether"
+              "nether,city,$can_fight_raid,$can_fight_wither,blocks,$potion_brewing,rod,archery"
             ],
             "item_count": 1
           }
@@ -904,7 +902,7 @@
           {
             "name": "The End... Again...",
             "access_rules": [
-              "end"
+              "dragon_kill,$can_fight_dragon"
             ],
             "item_count": 1
           }
@@ -923,7 +921,7 @@
           {
             "name": "The City At The End Of The Game",
             "access_rules": [
-              "end"
+              "city"
             ],
             "item_count": 1
           }
@@ -942,7 +940,7 @@
           {
             "name": "Free The End",
             "access_rules": [
-              "end"
+              "$can_fight_dragon"
             ],
             "item_count": 1
           }
@@ -961,7 +959,7 @@
           {
             "name": "The Next Generation",
             "access_rules": [
-              "end"
+              "$can_fight_dragon"
             ],
             "item_count": 1
           }
@@ -980,7 +978,7 @@
           {
             "name": "Sky's The Limit",
             "access_rules": [
-              "end"
+              "city,$basic_fight"
             ],
             "item_count": 1
           }
@@ -999,7 +997,7 @@
           {
             "name": "Great View From Up Here",
             "access_rules": [
-              "end"
+              "city,$basic_fight"
             ],
             "item_count": 1
           }
@@ -1018,7 +1016,7 @@
           {
             "name": "You Need a Mint",
             "access_rules": [
-              "end"
+              "$can_fight_dragon"
             ],
             "item_count": 1
           }
@@ -1061,7 +1059,7 @@
           {
             "name": "Two Birds,One Arrow",
             "access_rules": [
-              "overworld"
+              "$enchant,archery"
             ],
             "item_count": 1
           }
@@ -1080,7 +1078,7 @@
           {
             "name": "When Pigs Fly",
             "access_rules": [
-              "overworld"
+              "rod,[fortress],[$can_adventure]"
             ],
             "item_count": 1
           }
@@ -1099,7 +1097,7 @@
           {
             "name": "Sticky Situation",
             "access_rules": [
-              "overworld"
+              "overworld,bottles,ingots"
             ],
             "item_count": 1
           }
@@ -1118,7 +1116,8 @@
           {
             "name": "Sweet Dreams",
             "access_rules": [
-              "overworld"
+              "bed",
+              "village"
             ],
             "item_count": 1
           }
@@ -1137,7 +1136,7 @@
           {
             "name": "Adventuring Time",
             "access_rules": [
-              "overworld"
+              "overworld,$can_adventure"
             ],
             "item_count": 1
           }
@@ -1156,7 +1155,7 @@
           {
             "name": "Who's the Pillager Now?",
             "access_rules": [
-              "overworld"
+              "overworld,$crossbow,$cobble_weapons"
             ],
             "item_count": 1
           }
@@ -1175,7 +1174,7 @@
           {
             "name": "Ol' Betsy",
             "access_rules": [
-              "overworld"
+              "overworld,$crossbow"
             ],
             "item_count": 1
           }
@@ -1194,7 +1193,7 @@
           {
             "name": "What a Deal!",
             "access_rules": [
-              "overworld"
+              "village,$can_adventure"
             ],
             "item_count": 1
           }
@@ -1213,7 +1212,7 @@
           {
             "name": "Hired Help",
             "access_rules": [
-              "overworld"
+              "$process_iron,blocks"
             ],
             "item_count": 1
           }
@@ -1232,7 +1231,7 @@
           {
             "name": "Arbalistic",
             "access_rules": [
-              "overworld"
+              "$enchant,archery,blocks"
             ],
             "item_count": 1
           }
@@ -1251,7 +1250,7 @@
           {
             "name": "On A Rail",
             "access_rules": [
-              "overworld"
+              "$iron_tools"
             ],
             "item_count": 1
           }
@@ -1289,7 +1288,7 @@
           {
             "name": "Voluntary Exile",
             "access_rules": [
-              "overworld"
+              "$basic_fight"
             ],
             "item_count": 1
           }
@@ -1308,7 +1307,7 @@
           {
             "name": "Hero of the Village",
             "access_rules": [
-              "overworld"
+              "$can_fight_raid"
             ],
             "item_count": 1
           }
@@ -1327,7 +1326,7 @@
           {
             "name": "Monster Hunted",
             "access_rules": [
-              "overworld"
+              "$can_fight_dragon,$can_fight_wither,rod,city,fortress,nether"
             ],
             "item_count": 1
           }
@@ -1384,7 +1383,7 @@
           {
             "name": "Very Very Frightening",
             "access_rules": [
-              "overworld"
+              "$enchant,blocks"
             ],
             "item_count": 1
           }
@@ -1403,7 +1402,7 @@
           {
             "name": "Postmortal",
             "access_rules": [
-              "overworld"
+              "$can_fight_raid"
             ],
             "item_count": 1
           }
@@ -1422,7 +1421,7 @@
           {
             "name": "Take Aim",
             "access_rules": [
-              "overworld"
+              "archery"
             ],
             "item_count": 1
           }
@@ -1441,7 +1440,7 @@
           {
             "name": "Sniper Duel",
             "access_rules": [
-              "overworld"
+              "archery"
             ],
             "item_count": 1
           }
@@ -1460,7 +1459,7 @@
           {
             "name": "Bullseye",
             "access_rules": [
-              "overworld"
+              "archery,$iron_tools"
             ],
             "item_count": 1
           }
@@ -1503,7 +1502,7 @@
           {
             "name": "A Balanced Diet",
             "access_rules": [
-              "overworld"
+              "blocks,end,$potion_brewing,pearls:4"
             ],
             "item_count": 1
           }
@@ -1541,7 +1540,7 @@
           {
             "name": "The Lie",
             "access_rules": [
-              "overworld"
+              "$bucket"
             ],
             "item_count": 1
           }
@@ -1560,7 +1559,8 @@
           {
             "name": "Overpowered",
             "access_rules": [
-              "overworld"
+              "blocks,$nether_access",
+              "blocks,$iron_tools"
             ],
             "item_count": 1
           }
@@ -1579,7 +1579,7 @@
           {
             "name": "Serious Dedication",
             "access_rules": [
-              "overworld"
+              "nether,[$potion_brewing],$diamond_tools,[bed],ingots"
             ],
             "item_count": 1
           }
@@ -1617,7 +1617,7 @@
           {
             "name": "Fishy Business",
             "access_rules": [
-              "overworld"
+              "rod"
             ],
             "item_count": 1
           }
@@ -1636,7 +1636,7 @@
           {
             "name": "Tactical Fishing",
             "access_rules": [
-              "overworld"
+              "$bucket"
             ],
             "item_count": 1
           }
@@ -1655,7 +1655,7 @@
           {
             "name": "Bee Our Guest",
             "access_rules": [
-              "overworld"
+              "campfire,ingots,bottles"
             ],
             "item_count": 1
           }
@@ -1693,7 +1693,7 @@
           {
             "name": "A Complete Catalogue",
             "access_rules": [
-              "overworld"
+              "$can_adventure"
             ],
             "item_count": 1
           }
@@ -1712,7 +1712,7 @@
           {
             "name": "Total Beelocation",
             "access_rules": [
-              "overworld"
+              "$enchant,blocks"
             ],
             "item_count": 1
           }
@@ -1769,7 +1769,7 @@
           {
             "name": "Two by Two",
             "access_rules": [
-              "overworld"
+              "$process_iron,$can_adventure,nether"
             ],
             "item_count": 1
           }
