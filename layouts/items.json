@@ -3,6 +3,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
+    "item_size": 48,
     "rows": [
       [
         "overworld",
@@ -15,6 +16,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
+    "item_size": 48,
     "rows": [
       [
         "village",
@@ -29,6 +31,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
+    "item_size": 48,
     "rows": [
       [
         "archery",
@@ -37,26 +40,28 @@
         "shield"
       ],
       [
-        "ingots",
-        "brewing",
         "enchanting",
-        "bottles"
-      ],
-      [
-        "bucket",
-        "flint",
-        "bed",
-        "campfire"
+        "brewing",
+        "bottles",
+        "dragon"
       ],
       [
         "tools",
         "rod",
-        "scraps",
-        "pearls"
+        "bucket",
+        "flint"
       ],
       [
+        "ingots",
         "blocks",
-        "dragon"
+        "bed",
+        "campfire"
+      ],
+      [
+        "",
+        "",
+        "scraps",
+        "pearls"
       ]
     ]
   },

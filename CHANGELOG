@@ -1,3 +1,13 @@
+v0.0.2:
+* Corrected logic:
+  - "Those were the days" no longer require nether access
+  - "Cover me in debris" can be validated out of logic with no scraps
+  - "A Balanced Diet" cat be validated out of logic with no pearls
+* Changed order of unlocks
+* Added pinned locations
+* Made item icons bigger
+* Changed Tracker name to "Achievement Tracker"
+
 v0.0.1:
 Initial commit :
 * Locations and items are added

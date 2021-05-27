@@ -110,7 +110,7 @@
           {
             "name": "Hot Topic",
             "access_rules": [
-              "overworld,ingots"
+              "overworld, ingots"
             ],
             "item_count": 1
           }
@@ -377,7 +377,7 @@
           {
             "name": "Librarian",
             "access_rules": [
-              "overworld,enchanting"
+              "overworld, enchanting"
             ],
             "item_count": 1
           }
@@ -459,7 +459,7 @@
           {
             "name": "Oh Shiny",
             "access_rules": [
-              "nether,ingots",
+              "nether, ingots",
               "bastion, ingots"
             ],
             "item_count": 1
@@ -498,7 +498,7 @@
           {
             "name": "Uneasy Alliance",
             "access_rules": [
-              "nether,$diamond_tools,flint,rod"
+              "nether,$diamond_tools, flint, rod"
             ],
             "item_count": 1
           }
@@ -517,7 +517,7 @@
           {
             "name": "Hot Tourist Destinations",
             "access_rules": [
-              "nether,rod,$basic_fight"
+              "nether, rod,$basic_fight"
             ],
             "item_count": 1
           }
@@ -536,7 +536,7 @@
           {
             "name": "This Boat Has Legs",
             "access_rules": [
-              "nether,rod,$basic_fight"
+              "nether, rod,$basic_fight"
             ],
             "item_count": 1
           }
@@ -555,7 +555,7 @@
           {
             "name": "Those Were the Day",
             "access_rules": [
-              "bastion,$nether_access"
+              "bastion"
             ],
             "item_count": 1
           }
@@ -593,7 +593,7 @@
           {
             "name": "Not Quite \"Nine\" Lives",
             "access_rules": [
-              "nether,$nether_access,blocks"
+              "nether,$nether_access, blocks"
             ],
             "item_count": 1
           }
@@ -657,7 +657,7 @@
         ]
       },
       {
-        "name": "Country Lode,Take Me Home",
+        "name": "Country Lode, Take Me Home",
         "map_locations": [
           {
             "map": "all",
@@ -667,7 +667,7 @@
         ],
         "sections": [
           {
-            "name": "Country Lode,Take Me Home",
+            "name": "Country Lode, Take Me Home",
             "access_rules": [
               "nether,[$potion_brewing],$diamond_tools,[bed]"
             ],
@@ -726,7 +726,7 @@
           {
             "name": "Cover Me in Debris",
             "access_rules": [
-              "nether,$diamond_armor,scraps:2,[$potion_brewing],[$diamond_tools],[bed]"
+              "nether,$diamond_armor, [scraps:2],[$potion_brewing],[$diamond_tools],[bed]"
             ],
             "item_count": 1
           }
@@ -783,7 +783,7 @@
           {
             "name": "Bring Home The Beacon",
             "access_rules": [
-              "$can_fight_wither,blocks"
+              "$can_fight_wither, blocks"
             ],
             "item_count": 1
           }
@@ -802,7 +802,7 @@
           {
             "name": "A Furious Coktail",
             "access_rules": [
-              "nether,village,rod,$potion_brewing,$can_fight_wither,blocks"
+              "nether, village, rod,$potion_brewing,$can_fight_wither, blocks"
             ],
             "item_count": 1
           }
@@ -821,7 +821,7 @@
           {
             "name": "Beaconator",
             "access_rules": [
-              "$can_fight_wither,$diamond_tools,blocks"
+              "$can_fight_wither,$diamond_tools, blocks"
             ],
             "item_count": 1
           }
@@ -840,7 +840,7 @@
           {
             "name": "How Did We Get Here?",
             "access_rules": [
-              "nether,city,$can_fight_raid,$can_fight_wither,blocks,$potion_brewing,rod,archery"
+              "nether, city,$can_fight_raid,$can_fight_wither, blocks,$potion_brewing, rod, archery"
             ],
             "item_count": 1
           }
@@ -1047,7 +1047,7 @@
         ]
       },
       {
-        "name": "Two Birds,One Arrow",
+        "name": "Two Birds, One Arrow",
         "map_locations": [
           {
             "map": "all",
@@ -1057,9 +1057,9 @@
         ],
         "sections": [
           {
-            "name": "Two Birds,One Arrow",
+            "name": "Two Birds, One Arrow",
             "access_rules": [
-              "$enchant,archery"
+              "$enchant, archery"
             ],
             "item_count": 1
           }
@@ -1097,7 +1097,7 @@
           {
             "name": "Sticky Situation",
             "access_rules": [
-              "overworld,bottles,ingots"
+              "overworld, bottles, ingots"
             ],
             "item_count": 1
           }
@@ -1212,7 +1212,7 @@
           {
             "name": "Hired Help",
             "access_rules": [
-              "$process_iron,blocks"
+              "$process_iron, blocks"
             ],
             "item_count": 1
           }
@@ -1231,7 +1231,7 @@
           {
             "name": "Arbalistic",
             "access_rules": [
-              "$enchant,archery,blocks"
+              "$enchant, archery, blocks"
             ],
             "item_count": 1
           }
@@ -1326,7 +1326,7 @@
           {
             "name": "Monster Hunted",
             "access_rules": [
-              "$can_fight_dragon,$can_fight_wither,rod,city,fortress,nether"
+              "$can_fight_dragon,$can_fight_wither, rod, city, fortress, nether"
             ],
             "item_count": 1
           }
@@ -1383,7 +1383,7 @@
           {
             "name": "Very Very Frightening",
             "access_rules": [
-              "$enchant,blocks"
+              "$enchant, blocks"
             ],
             "item_count": 1
           }
@@ -1502,7 +1502,7 @@
           {
             "name": "A Balanced Diet",
             "access_rules": [
-              "blocks,end,$potion_brewing,pearls:4"
+              "blocks, end, $potion_brewing, [pearls:4]"
             ],
             "item_count": 1
           }
@@ -1579,7 +1579,7 @@
           {
             "name": "Serious Dedication",
             "access_rules": [
-              "nether,[$potion_brewing],$diamond_tools,[bed],ingots"
+              "nether,[$potion_brewing],$diamond_tools,[bed], ingots"
             ],
             "item_count": 1
           }
@@ -1655,7 +1655,7 @@
           {
             "name": "Bee Our Guest",
             "access_rules": [
-              "campfire,ingots,bottles"
+              "campfire, ingots, bottles"
             ],
             "item_count": 1
           }
@@ -1712,7 +1712,7 @@
           {
             "name": "Total Beelocation",
             "access_rules": [
-              "$enchant,blocks"
+              "$enchant, blocks"
             ],
             "item_count": 1
           }
@@ -1769,7 +1769,7 @@
           {
             "name": "Two by Two",
             "access_rules": [
-              "$process_iron,$can_adventure,nether"
+              "$process_iron,$can_adventure, nether"
             ],
             "item_count": 1
           }

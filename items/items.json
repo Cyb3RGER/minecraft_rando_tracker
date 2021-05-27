@@ -1,7 +1,7 @@
 [
   {
     "name": "Overworld",
-    "type": "static",
+    "type": "toggle",
     "img": "images/items/overworld.png",
     "codes": "overworld"
   },

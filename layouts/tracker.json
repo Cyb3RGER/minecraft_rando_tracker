@@ -7,9 +7,33 @@
       "dropshadow": true,
       "content": [
         {
-          "type": "layout",
-          "dock": "left",
-          "key": "shared_item_grid"
+          "type": "array",
+          "orientation": "vertical",
+          "content": [
+            {
+              "type": "layout",
+              "dock": "left",
+              "key": "shared_item_grid"
+            },
+            {
+              "type": "dock",
+              "dock": "bottom",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Pinned Locations",
+                  "content": {
+                    "type": "recentpins",
+                    "style": "wrap",
+                    "h_alignment": "stretch",
+                    "v_alignment": "stretch",
+                    "orientation": "vertical",
+                    "compact": true
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "map",
