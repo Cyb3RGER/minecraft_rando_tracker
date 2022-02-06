@@ -1,101 +1,118 @@
 {
-  "worlds": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "1,2",
-    "item_size": 48,
-    "rows": [
-      [
-        "overworld",
-        "nether",
-        "end"
-      ]
-    ]
-  },
-  "structures": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "1,2",
-    "item_size": 48,
-    "rows": [
-      [
-        "village",
-        "outpost",
-        "fortress",
-        "bastion",
-        "city"
-      ]
-    ]
-  },
-  "unlocks": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "1,2",
-    "item_size": 48,
-    "rows": [
-      [
-        "archery",
-        "weapons",
-        "armor",
-        "shield"
-      ],
-      [
-        "enchanting",
-        "brewing",
-        "bottles",
-        "dragon"
-      ],
-      [
-        "tools",
-        "rod",
-        "bucket",
-        "flint"
-      ],
-      [
-        "ingots",
-        "blocks",
-        "bed",
-        "campfire"
-      ],
-      [
-        "",
-        "",
-        "scraps",
-        "pearls"
-      ]
-    ]
-  },
-  "shared_item_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "content": [
-      {
-        "type": "group",
-        "header": "Worlds",
-        "dock": "left",
-        "content": {
-          "type": "layout",
-          "key": "worlds"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Structures",
-        "dock": "left",
-        "content": {
-          "type": "layout",
-          "key": "structures"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Unlocks",
-        "dock": "left",
-        "content": {
-          "type": "layout",
-          "key": "unlocks"
-        }
-      }
-    ]
-  }
+    "worlds": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "item_size": 48,
+        "rows": [
+            [
+                "overworld",
+                "nether",
+                "end"
+            ]
+        ]
+    },
+    "structures": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "item_size": 48,
+        "rows": [
+            [
+                "village",
+                "outpost",
+                "fortress",
+                "bastion",
+                "city"
+            ],
+            [
+                "compass_village",
+                "compass_outpost",
+                "compass_fortress",
+                "compass_bastion",
+                "compass_city"
+            ]
+        ]
+    },
+    "unlocks": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "item_size": 48,
+        "rows": [
+            [
+                "tools",
+                "weapons",
+                "armor",
+                "crafting"
+            ],
+            [
+                "archery",
+                "shield",
+                "enchanting",
+                "brewing"
+            ],
+            [
+                "flint",
+                "bucket",
+                "rod",
+                "bottles"
+            ],
+            [
+                "bed",
+                "campfire",
+                "spyglass",                
+                "saddle"
+            ],            
+            [
+                "channeling",
+                "silk_touch",
+                "piercing"
+            ],
+            [
+                "dragon_egg_shards",
+                "scraps",
+                "pearls"
+            ]
+        ]
+    },
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "group",
+                "header": "Worlds",
+                "dock": "left",
+                "header_content": {
+                    "type": "button_popup",
+                    "style": "settings",
+                    "popup_background": "#55212121",
+                    "layout": "settings_popup"
+                },
+                "content": {
+                    "type": "layout",
+                    "key": "worlds"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Structures",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "structures"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Unlocks",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "unlocks"
+                }
+            }
+        ]
+    }
 }

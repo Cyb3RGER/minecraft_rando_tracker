@@ -1,1780 +1,2035 @@
 [
-  {
-    "name": "Overworld",
-    "children": [
-      {
-        "name": "Minecraft",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Minecraft",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
+    {
+        "name": "Overworld",
+        "children": [
+            {
+                "name": "Minecraft",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Minecraft",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stone Age",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stone Age",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Getting an Upgrade",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Getting an Upgrade",
+                        "access_rules": [
+                            "$tools_cobble",
+                            "village, [$tools_cobble]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },            
+            {
+                "name": "Acquire Hardware",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 318,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Acquire Hardware",
+                        "access_rules": [
+                            "[$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Suit Up",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 402,
+                        "y": 66
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Suit Up",
+                        "access_rules": [
+                            "[$armor_iron], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hot Stuff",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 402,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hot Stuff",
+                        "access_rules": [
+                            "[bucket], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Isn't it Iron Pick",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 402,
+                        "y": 234
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Isn't it Iron Pick",
+                        "access_rules": [
+                            "$tools_iron, [$has_iron]",
+                            "$village, [$tools_iron], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Not Today, Thank You",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 486,
+                        "y": 66
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Not Today, Thank You",
+                        "access_rules": [
+                            "$shield, [$has_iron]",
+                            "$village, [$shield], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ice Bucket Challenge",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 486,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ice Bucket Challenge",
+                        "access_rules": [
+                            "[$has_diamond_pickaxe]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Diamonds!",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 486,
+                        "y": 234
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Diamonds!",
+                        "access_rules": [
+                            "[$tools_iron], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "We Need to Go Deeper",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "We Need to Go Deeper",
+                        "access_rules": [
+                            "[$nether_access]"
+                        ],
+                        "item_count": 0,
+                        "hosted_item": "nether"
+                    }
+                ]
+            },
+            {
+                "name": "Cover Me With Diamonds",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 234
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cover Me With Diamonds",
+                        "access_rules": [
+                            "[$armor_diamond], @Overworld/Diamonds!/Diamonds!"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Enchanter",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enchanter",
+                        "access_rules": [
+                            "$enchanting, [$can_enchant]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Zombie Doctor",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 654,
+                        "y": 66
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Zombie Doctor",
+                        "access_rules": [
+                            "[$can_brew_potions], [$has_gold]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eye Spy",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 654,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Eye Spy",
+                        "access_rules": [
+                            "[$enter_stronghold]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },            
+            {
+                "name": "The End?",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The End?",
+                        "access_rules": [
+                            "[$end_access]"
+                        ],
+                        "item_count": 0,
+                        "hosted_item": "end"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Getting Wood",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Getting Wood",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
+    },
+    {
+        "name": "Archipelago",
+        "children": [
+            {
+                "name": "Archipelago",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Archipelago",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 0
+                    }
+                ]
+            },
+            {
+                "name": "Getting Wood",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Getting Wood",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Time to Mine!",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 318,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Time to Mine!",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },            
+            {
+                "name": "Hot Topic",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 402,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hot Topic",
+                        "access_rules": [
+                            "[$crafting_ingots]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Time to Strike!",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 318,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Time to Strike!",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Overkill",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 402,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Overkill",
+                        "access_rules": [
+                            "[$fortress], [$can_brew_potions], [$weapons_cobble]",
+                            "[$fortress], [$can_brew_potions], [$nether]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cow Tipper",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cow Tipper",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Librarian",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Librarian",
+                        "access_rules": [
+                            "[$enchanting]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "When Pigs Fly",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "When Pigs Fly",
+                        "access_rules": [
+                            "[$fortress_loot], [$saddle], [$rod], [$can_adventure]",
+                            "[$complete_raid], [$saddle], [$rod], [$can_adventure]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bake Bread",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bake Bread",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "The Lie",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Lie",
+                        "access_rules": [
+                            "[$has_iron], [$bucket]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },   
+            {
+                "name": "Overpowered",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Overpowered",
+                        "access_rules": [
+                            "[$bastion], [$has_iron], [$tools_iron], [$basic_combat]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "On A Rail",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "On A Rail",
+                        "access_rules": [
+                            "[$has_iron], [$tools_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Time to Mine!",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Stone Age",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Stone Age",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Stone Age",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Getting an Upgrade",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 402,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Getting an Upgrade",
-            "access_rules": [
-              "overworld,$cobble_tools"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hot Topic",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 402,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hot Topic",
-            "access_rules": [
-              "overworld, ingots"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Acquire Hardware",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 486,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Acquire Hardware",
-            "access_rules": [
-              "overworld,$process_iron"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Suit Up",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 570,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Suit Up",
-            "access_rules": [
-              "overworld,$iron_armor"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hot Stuff",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 570,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hot Stuff",
-            "access_rules": [
-              "overworld,$bucket"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Isn't it Iron Pick",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 570,
-            "y": 234
-          }
-        ],
-        "sections": [
-          {
-            "name": "Isn't it Iron Pick",
-            "access_rules": [
-              "overworld,$iron_tools"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Not Today. Thank You",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 654,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Not Today. Thank You",
-            "access_rules": [
-              "overworld,$shield"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Ice Bucket Challenge",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 654,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ice Bucket Challenge",
-            "access_rules": [
-              "overworld,$diamond_tools"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Diamonds!",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 654,
-            "y": 234
-          }
-        ],
-        "sections": [
-          {
-            "name": "Diamonds!",
-            "access_rules": [
-              "overworld,$iron_tools"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "We Need to Go Deeper",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "We Need to Go Deeper",
-            "access_rules": [
-              "overworld,$nether_access"
-            ],
-            "item_count": 1,
-            "hosted_item": "nether"
-          }
-        ]
-      },
-      {
-        "name": "Cover Me With Diamonds",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 234
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cover Me With Diamonds",
-            "access_rules": [
-              "overworld,$diamond_armor"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Enchanter",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 318
-          }
-        ],
-        "sections": [
-          {
-            "name": "Enchanter",
-            "access_rules": [
-              "overworld,$enchant"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Zombie Doctor",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 66
-          }
-        ],
-        "sections": [
-          {
-            "name": "Zombie Doctor",
-            "access_rules": [
-              "overworld,$potion_brewing"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Eye Spy",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Eye Spy",
-            "access_rules": [
-              "overworld,$potion_brewing,[pearls:1]"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Overkill",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 234
-          }
-        ],
-        "sections": [
-          {
-            "name": "Overkill",
-            "access_rules": [
-              "overworld,$potion_brewing"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Librarian",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 318
-          }
-        ],
-        "sections": [
-          {
-            "name": "Librarian",
-            "access_rules": [
-              "overworld, enchanting"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The End?",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "The End?",
-            "access_rules": [
-              "overworld,$potion_brewing,[pearls:4]"
-            ],
-            "item_count": 1,
-            "hosted_item": "end"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Nether",
-    "children": [
-      {
+    },
+    {
         "name": "Nether",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 402
-          }
-        ],
-        "sections": [
-          {
-            "name": "Nether",
-            "access_rules": [
-              "nether"
-            ],
-            "item_count": 1
-          }
+        "children": [
+            {
+                "name": "Nether",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Nether",
+                        "access_rules": [
+                            "$nether"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Subspace Bubble",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Subspace Bubble",
+                        "access_rules": [
+                            "$nether, [$has_diamond_pickaxe]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oh Shiny",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Oh Shiny",
+                        "access_rules": [
+                            "nether, [$can_piglin_trade]",
+                            "bastion, [$can_piglin_trade]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Return to Sender",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Return to Sender",
+                        "access_rules": [
+                            "[$nether]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Uneasy Alliance",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Uneasy Alliance",
+                        "access_rules": [
+                            "$nether, $has_diamond_pickaxe, [$rod], [$include_hard]",
+                            "$nether, $village, [$has_diamond_pickaxe], [$rod], [$include_hard]",
+                            "$nether, $city, [$has_diamond_pickaxe], [$rod], [$include_hard]",
+                            "$nether, $bastion, [$has_diamond_pickaxe], [$rod], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hot Tourist Destinations",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hot Tourist Destinations",
+                        "access_rules": [
+                            "$nether"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "This Boat Has Legs",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "This Boat Has Legs",
+                        "access_rules": [
+                            "$nether, [$saddle], [$rod], [$fortress_loot]",
+                            "$nether, [$saddle], [$rod], [$complete_raid]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Those Were the Days",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Those Were the Days",
+                        "access_rules": [
+                            "[$is_struct_shuffle], [$bastion_access], [$_end], [$nether]",
+                            "$is_not_struct_shuffle, $bastion_access"
+                        ],
+                        "item_count": 0,
+                        "hosted_item": "bastion"
+                    }
+                ]
+            },
+            {
+                "name": "War Pigs",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 150,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "War Pigs",
+                        "access_rules": [
+                            "$bastion, [$basic_combat]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Not Quite \"Nine\" Lives",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Not Quite \"Nine\" Lives",
+                        "access_rules": [
+                            "$nether, [$can_piglin_trade], [$crafting_blocks]",
+                            "$nether, [$bastion], [$can_piglin_trade], [$crafting_blocks]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Who is Cutting Onions?",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Who is Cutting Onions?",
+                        "access_rules": [
+                            "nether, [$can_piglin_trade]",
+                            "bastion, [$can_piglin_trade]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A Terrible Fortress",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A Terrible Fortress",
+                        "access_rules": [
+                            "[$is_struct_shuffle], [$fortress_access], [$_end], [$nether]",
+                            "$is_not_struct_shuffle, $fortress_access"
+                        ],
+                        "item_count": 0,
+                        "hosted_item": "fortress"
+                    }
+                ]
+            },
+            {
+                "name": "Hidden in the Depths",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden in the Depths",
+                        "access_rules": [
+                            "$bastion, [$nether], [$can_brew_potions], [$bed], [$has_diamond_pickaxe]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Country Lode, Take Me Home",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 234,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Country Lode, Take Me Home",
+                        "access_rules": [
+                            "[$nether], @Nether/Hidden in the Depths/Hidden in the Depths, [$has_gold]",
+                            "[$nether], $scraps, [@Nether/Hidden in the Depths/Hidden in the Depths], [$has_gold]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spooky Scary Skeleton",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 318,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Spooky Scary Skeleton",
+                        "access_rules": [
+                            "$fortress, [$basic_combat]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Into Fire",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 318,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Into Fire",
+                        "access_rules": [
+                            "$fortress, [$basic_combat]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cover Me in Debris",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 318,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cover Me in Debris",
+                        "access_rules": [
+                            "[$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Diamonds!], @Nether/Hidden in the Depths/Hidden in the Depths, [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Withering Heights",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 402,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Withering Heights",
+                        "access_rules": [
+                            "$fortress, [$can_kill_wither], [$include_postgame|wither]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Local Brewery",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 402,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Local Brewery",
+                        "access_rules": [
+                            "[$can_adventure], [$can_brew_potions]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bring Home The Beacon",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 486,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bring Home The Beacon",
+                        "access_rules": [
+                            "$fortress, [$can_adventure], [$fortress_loot], [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_postgame|wither]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A Furious Cocktail",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 486,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A Furious Cocktail",
+                        "access_rules": [
+                            "[$can_adventure], $fortress, [$blaze_rods], $brewing, [$can_brew_potions], [$rod], $nether, [$village], [@Nether/Bring Home The Beacon/Bring Home The Beacon], [$include_hard], [$include_postgame|wither]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beaconator",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Beaconator",
+                        "access_rules": [
+                            "$fortress, $tools_cobble, [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "How Did We Get Here?",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "How Did We Get Here?",
+                        "access_rules": [
+                            "$nether, $city, [$rod], [$archery], @Nether/Bring Home The Beacon/Bring Home The Beacon, @Adventure/Hero of the Village/Hero of the Village, [$include_unreasonable], [$include_postgame|wither]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Subspace Bubble",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 318
-          }
-        ],
-        "sections": [
-          {
-            "name": "Subspace Bubble",
-            "access_rules": [
-              "nether"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Oh Shiny",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 402
-          }
-        ],
-        "sections": [
-          {
-            "name": "Oh Shiny",
-            "access_rules": [
-              "nether, ingots",
-              "bastion, ingots"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Return to Sender",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "Return to Sender",
-            "access_rules": [
-              "nether"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Uneasy Alliance",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 570
-          }
-        ],
-        "sections": [
-          {
-            "name": "Uneasy Alliance",
-            "access_rules": [
-              "nether,$diamond_tools, flint, rod"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hot Tourist Destinations",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 234
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hot Tourist Destinations",
-            "access_rules": [
-              "nether, rod,$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "This Boat Has Legs",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 318
-          }
-        ],
-        "sections": [
-          {
-            "name": "This Boat Has Legs",
-            "access_rules": [
-              "nether, rod,$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Those Were the Days",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "Those Were the Day",
-            "access_rules": [
-              "bastion"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "War Pigs",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 570
-          }
-        ],
-        "sections": [
-          {
-            "name": "War Pigs",
-            "access_rules": [
-              "bastion,$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Not Quite \"Nine\" Lives",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 234
-          }
-        ],
-        "sections": [
-          {
-            "name": "Not Quite \"Nine\" Lives",
-            "access_rules": [
-              "nether,$nether_access, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Who is Cutting Onions?",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 318
-          }
-        ],
-        "sections": [
-          {
-            "name": "Who is Cutting Onions?",
-            "access_rules": [
-              "[nether],$nether_access"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "A Terrible Fortress",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 402
-          }
-        ],
-        "sections": [
-          {
-            "name": "A Terrible Fortress",
-            "access_rules": [
-              "fortress"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hidden in the Depths",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hidden in the Depths",
-            "access_rules": [
-              "nether,[$potion_brewing],$diamond_tools,[bed]"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Country Lode, Take Me Home",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 570
-          }
-        ],
-        "sections": [
-          {
-            "name": "Country Lode, Take Me Home",
-            "access_rules": [
-              "nether,[$potion_brewing],$diamond_tools,[bed]"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Spooky Scary Skeleton",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 402
-          }
-        ],
-        "sections": [
-          {
-            "name": "Spooky Scary Skeleton",
-            "access_rules": [
-              "fortress,$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Into Fire",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "Into Fire",
-            "access_rules": [
-              "fortress,$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Cover Me in Debris",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 570
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cover Me in Debris",
-            "access_rules": [
-              "nether,$diamond_armor, [scraps:2],[$potion_brewing],[$diamond_tools],[bed]"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Withering Heights",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 402,
-            "y": 402
-          }
-        ],
-        "sections": [
-          {
-            "name": "Withering Heights",
-            "access_rules": [
-              "$can_fight_wither"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Local Brewery",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 402,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "Local Brewery",
-            "access_rules": [
-              "fortress,$potion_brewing"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bring Home The Beacon",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 486,
-            "y": 402
-          }
-        ],
-        "sections": [
-          {
-            "name": "Bring Home The Beacon",
-            "access_rules": [
-              "$can_fight_wither, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "A Furious Coktail",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 486,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "A Furious Coktail",
-            "access_rules": [
-              "nether, village, rod,$potion_brewing,$can_fight_wither, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Beaconator",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 570,
-            "y": 402
-          }
-        ],
-        "sections": [
-          {
-            "name": "Beaconator",
-            "access_rules": [
-              "$can_fight_wither,$diamond_tools, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "How Did We Get Here?",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 570,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "How Did We Get Here?",
-            "access_rules": [
-              "nether, city,$can_fight_raid,$can_fight_wither, blocks,$potion_brewing, rod, archery"
-            ],
-            "item_count": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "The End",
-    "children": [
-      {
+    },
+    {
         "name": "The End",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 570
-          }
-        ],
-        "sections": [
-          {
-            "name": "The End",
-            "access_rules": [
-              "end"
-            ],
-            "item_count": 1
-          }
+        "children": [
+            {
+                "name": "The End",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The End",
+                        "access_rules": [
+                            "end"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Remote Getaway",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Remote Getaway",
+                        "access_rules": [
+                            "$_end"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "The End... Again...",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 570,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The End... Again...",
+                        "access_rules": [
+                            "$_end, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "The City At The End Of The Game",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 654,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The City At The End Of The Game",
+                        "access_rules": [
+                            "[$is_struct_shuffle], [$city_access], [$_end], [$nether]",
+                            "$is_not_struct_shuffle, $city_access"
+                        ],
+                        "item_count": 0,
+                        "hosted_item": "city"
+                    }
+                ]
+            },
+            {
+                "name": "Free The End",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 654,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Free The End",
+                        "access_rules": [
+                            "nether, end, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "The Next Generation",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 654,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Next Generation",
+                        "access_rules": [
+                            "$_end, [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sky's The Limit",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sky's The Limit",
+                        "access_rules": [
+                            "$city, [$basic_combat]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Great View From Up Here",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Great View From Up Here",
+                        "access_rules": [
+                            "city, [$basic_combat]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "You Need a Mint",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "You Need a Mint",
+                        "access_rules": [
+                            "$_end, [$can_respawn_ender_dragon], [$has_bottle], [$include_postgame|dragon]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Remote Gateaway",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "Remote Gateaway",
-            "access_rules": [
-              "end"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The End... Again...",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 654
-          }
-        ],
-        "sections": [
-          {
-            "name": "The End... Again...",
-            "access_rules": [
-              "dragon_kill,$can_fight_dragon"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The City At The End Of The Game",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "The City At The End Of The Game",
-            "access_rules": [
-              "city"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Free The End",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 570
-          }
-        ],
-        "sections": [
-          {
-            "name": "Free The End",
-            "access_rules": [
-              "$can_fight_dragon"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The Next Generation",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 654
-          }
-        ],
-        "sections": [
-          {
-            "name": "The Next Generation",
-            "access_rules": [
-              "$can_fight_dragon"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sky's The Limit",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 486
-          }
-        ],
-        "sections": [
-          {
-            "name": "Sky's The Limit",
-            "access_rules": [
-              "city,$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Great View From Up Here",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 570
-          }
-        ],
-        "sections": [
-          {
-            "name": "Great View From Up Here",
-            "access_rules": [
-              "city,$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "You Need a Mint",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 654
-          }
-        ],
-        "sections": [
-          {
-            "name": "You Need a Mint",
-            "access_rules": [
-              "$can_fight_dragon"
-            ],
-            "item_count": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Adventure",
-    "children": [
-      {
+    },
+    {
         "name": "Adventure",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Adventure",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
+        "children": [
+            {
+                "name": "Adventure",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Adventure",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Two Birds, One Arrow",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 822,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Two Birds, One Arrow",
+                        "access_rules": [
+                            "$craft_crossbow, $can_enchant, [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },            
+            {
+                "name": "Sticky Situation",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 822,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sticky Situation",
+                        "access_rules": [
+                            "[$campfire], [$bottles]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sweet Dreams",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 822,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sweet Dreams",
+                        "access_rules": [
+                            "$bed",
+                            "$village"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Adventuring Time",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 822,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Adventuring Time",
+                        "access_rules": [
+                            "[$can_adventure], [$include_unreasonable]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Who's the Pillager Now?",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Who's the Pillager Now?",
+                        "access_rules": [
+                            "[$outpost], [$craft_crossbow]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ol' Betsy",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ol' Betsy",
+                        "access_rules": [
+                            "[$craft_crossbow]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "What a Deal!",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "What a Deal!",
+                        "access_rules": [
+                            "[$is_struct_shuffle], [$village_access], [$_end], [$nether]",
+                            "$is_not_struct_shuffle, $village_access"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hired Help",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hired Help",
+                        "access_rules": [
+                            "$crafting_blocks, [$has_iron]",
+                            "$bastion, [$crafting_blocks], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Arbalistic",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Arbalistic",
+                        "access_rules": [
+                            "[$craft_crossbow], [$piercing], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },                       
+            {
+                "name": "Voluntary Exile",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Voluntary Exile",
+                        "access_rules": [
+                            "[$outpost], [$basic_combat]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hero of the Village",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hero of the Village",
+                        "access_rules": [
+                            "$village, [$complete_raid]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Monsters Hunted",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Monsters Hunted",
+                        "access_rules": [
+                            "$_end, $nether, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$can_kill_wither], [$rod], [$include_hard], [$include_postgame|dragon], [$include_postgame|wither]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Monster Hunter",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Monster Hunter",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A Throwaway Joke",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A Throwaway Joke",
+                        "access_rules": [
+                            "[$can_adventure]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Very Very Frightening",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Very Very Frightening",
+                        "access_rules": [
+                            "$village, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]",
+                            "@Overworld/Zombie Doctor/Zombie Doctor, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Postmortal",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Postmortal",
+                        "access_rules": [
+                            "[$village], [$complete_raid]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Take Aim",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Take Aim",
+                        "access_rules": [
+                            "[$archery]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sniper Duel",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1242,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sniper Duel",
+                        "access_rules": [
+                            "[$archery]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bullseye",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bullseye",
+                        "access_rules": [
+                            "[$archery], [$tools_iron], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Is It a Plane?",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Is It a Plane?",
+                        "access_rules": [
+                            "$spyglass, [$has_spyglass], [$include_postgame|dragon]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Is It a Balloon?",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Is It a Balloon?",
+                        "access_rules": [
+                            "$spyglass, [$has_spyglass]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Is It a Bird?",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 822,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Is It a Bird?",
+                        "access_rules": [
+                            "$spyglass, [$has_spyglass]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Surge Protector",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Surge Protector",
+                        "access_rules": [
+                            "$village, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]",
+                            "@Overworld/Zombie Doctor/Zombie Doctor, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Light as a Rabbit",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Light as a Rabbit",
+                        "access_rules": [
+                            "[$can_adventure], [$has_iron], [$bucket], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Two Birds, One Arrow",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 738
-          }
-        ],
-        "sections": [
-          {
-            "name": "Two Birds, One Arrow",
-            "access_rules": [
-              "$enchant, archery"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "When Pigs Fly",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "When Pigs Fly",
-            "access_rules": [
-              "rod,[fortress],[$can_adventure]"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sticky Situation",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Sticky Situation",
-            "access_rules": [
-              "overworld, bottles, ingots"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sweet Dreams",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "Sweet Dreams",
-            "access_rules": [
-              "bed",
-              "village"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Adventuring Time",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 66,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "Adventuring Time",
-            "access_rules": [
-              "overworld,$can_adventure"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Who's the Pillager Now?",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 738
-          }
-        ],
-        "sections": [
-          {
-            "name": "Who's the Pillager Now?",
-            "access_rules": [
-              "overworld,$crossbow,$cobble_weapons"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Ol' Betsy",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ol' Betsy",
-            "access_rules": [
-              "overworld,$crossbow"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "What a Deal!",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "What a Deal!",
-            "access_rules": [
-              "village,$can_adventure"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hired Help",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 150,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hired Help",
-            "access_rules": [
-              "$process_iron, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Arbalistic",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 738
-          }
-        ],
-        "sections": [
-          {
-            "name": "Arbalistic",
-            "access_rules": [
-              "$enchant, archery, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "On A Rail",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "On A Rail",
-            "access_rules": [
-              "$iron_tools"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Time to Strike!",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Time to Strike!",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Voluntary Exile",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "Voluntary Exile",
-            "access_rules": [
-              "$basic_fight"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hero of the Village",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 234,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hero of the Village",
-            "access_rules": [
-              "$can_fight_raid"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Monster Hunted",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "Monster Hunted",
-            "access_rules": [
-              "$can_fight_dragon,$can_fight_wither, rod, city, fortress, nether"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Monster Hunter",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Monster Hunter",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "A Throwaway Joke",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "A Throwaway Joke",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Very Very Frightening",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 318,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "Very Very Frightening",
-            "access_rules": [
-              "$enchant, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Postmortal",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 402,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "Postmortal",
-            "access_rules": [
-              "$can_fight_raid"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Take Aim",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 402,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Take Aim",
-            "access_rules": [
-              "archery"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sniper Duel",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 402,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "Sniper Duel",
-            "access_rules": [
-              "archery"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bullseye",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 486,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "Bullseye",
-            "access_rules": [
-              "archery,$iron_tools"
-            ],
-            "item_count": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Husbandry",
-    "children": [
-      {
+    },
+    {
         "name": "Husbandry",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Husbandry",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
+        "children": [
+            {
+                "name": "Husbandry",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Husbandry",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A Balanced Diet",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A Balanced Diet",
+                        "access_rules": [
+                            "[$village], [$bottles], [$has_gold], [$crafting_blocks], $_end, $tools_cobble, [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },                                 
+            {
+                "name": "Serious Dedication",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Serious Dedication",
+                        "access_rules": [
+                            "[$nether], @Nether/Hidden in the Depths/Hidden in the Depths, [$has_gold]",
+                            "[$nether], $scraps, [@Nether/Hidden in the Depths/Hidden in the Depths], [$has_gold]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A Seedy Place",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A Seedy Place",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fishy Business",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 1074
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fishy Business",
+                        "access_rules": [
+                            "[$rod]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Tactical Fishing",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 1158
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Tactical Fishing",
+                        "access_rules": [
+                            "[$bucket], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bee Our Guest",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bee Our Guest",
+                        "access_rules": [
+                            "[$campfire], [$has_bottle]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Best Friends Forever",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 1074
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Best Friends Forever",
+                        "access_rules": [
+                            "overworld"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A Complete Catalogue",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 1158
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A Complete Catalogue",
+                        "access_rules": [
+                            "[$village], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Total Beelocation",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Total Beelocation",
+                        "access_rules": [
+                            "[$silk_touch], [$can_use_anvil], [$can_enchant]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },            
+            {
+                "name": "The Parrots and the Bats",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 1074
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Parrots and the Bats",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Two by Two",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 1158
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Two by Two",
+                        "access_rules": [
+                            "$nether, $has_iron, [$can_adventure], [$include_hard]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wax On",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wax On",
+                        "access_rules": [
+                            "[$has_copper], [$campfire], $crafting_blocks"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wax Off",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 990,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wax Off",
+                        "access_rules": [
+                            "[$has_copper], [$campfire], $crafting_blocks"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Glow and Behold!",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Glow and Behold!",
+                        "access_rules": [
+                            "[$can_adventure]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Whatever Floats Your Goat!",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Whatever Floats Your Goat!",
+                        "access_rules": [
+                            "[$can_adventure]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "The Cutest Predator",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 1158
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Cutest Predator",
+                        "access_rules": [
+                            "[$bucket], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "The Healing Power of Friendship",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 1074
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Healing Power of Friendship",
+                        "access_rules": [
+                            "[$bucket], [$has_iron]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "name": "A Balanced Diet",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 654,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "A Balanced Diet",
-            "access_rules": [
-              "blocks, end, $potion_brewing, [pearls:4]"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bake Bread",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 654,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Bake Bread",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The Lie",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 654,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "The Lie",
-            "access_rules": [
-              "$bucket"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Overpowered",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 654,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "Overpowered",
-            "access_rules": [
-              "blocks,$nether_access",
-              "blocks,$iron_tools"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Serious Dedication",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "Serious Dedication",
-            "access_rules": [
-              "nether,[$potion_brewing],$diamond_tools,[bed], ingots"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "A Seedy Place",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "A Seedy Place",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fishy Business",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "Fishy Business",
-            "access_rules": [
-              "rod"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Tactical Fishing",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 738,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "Tactical Fishing",
-            "access_rules": [
-              "$bucket"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bee Our Guest",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "Bee Our Guest",
-            "access_rules": [
-              "campfire, ingots, bottles"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Best Friend Forever",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "Best Friend Forever",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "A Complete Catalogue",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 822,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "A Complete Catalogue",
-            "access_rules": [
-              "$can_adventure"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Total Beelocation",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 822
-          }
-        ],
-        "sections": [
-          {
-            "name": "Total Beelocation",
-            "access_rules": [
-              "$enchant, blocks"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Cow Tipper",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 906
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cow Tipper",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The Parrots and the Bats",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 990
-          }
-        ],
-        "sections": [
-          {
-            "name": "The Parrots and the Bats",
-            "access_rules": [
-              "overworld"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Two by Two",
-        "map_locations": [
-          {
-            "map": "all",
-            "x": 906,
-            "y": 1074
-          }
-        ],
-        "sections": [
-          {
-            "name": "Two by Two",
-            "access_rules": [
-              "$process_iron,$can_adventure, nether"
-            ],
-            "item_count": 1
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]
