@@ -1,0 +1,98 @@
+{
+    "settings_popup": {
+        "type": "dock",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Combat Difficulty",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "difficulty",                        
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Goal",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "goal_dragon",                        
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Structure Shuffle",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "struct_shuffle_on",
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Include hard advancements",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "hard_off",                        
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Include unreasonable advancements",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "unreasonable_off",                        
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Include postgame advancements",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "postgame_off",                        
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
+        ]
+    }
+}

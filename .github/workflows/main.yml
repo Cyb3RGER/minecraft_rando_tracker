@@ -1,0 +1,14 @@
+name: Discord webhook
+on:
+  release: 
+    types: [published]
+
+jobs:
+  discord_webhook:    
+    runs-on: ubuntu-latest    
+    steps:
+     - name: Discord Webhook Notify
+       uses: Cyb3RGER/discord-webhook-notify@master
+       with:
+        webhookUrl: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        severity: info
