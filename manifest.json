@@ -7,7 +7,7 @@
 	"author": "Neomatamune, Cyb3R",
 	"variants": {
 		"tracker": {
-			"display_name": "Achievements Tracker",
+			"display_name": "Advancement Tracker",
 			"flags": [
 				"ap"
 			]
