@@ -138,5 +138,47 @@
                 "codes": "postgame_off"
             }
         ]
+    },
+    {
+        "name": "Death Link",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "codes": "deathlink",
+        "stages": [
+            {
+                "img": "images/settings/on.png",
+                "inherit_codes": false,
+                "codes": "deathlink_on"
+            },
+            {
+                "img": "images/settings/off.png",
+                "inherit_codes": false,
+                "codes": "deathlink_off"
+            }
+        ]
+    },
+    {
+        "name": "Show Excluded",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "codes": "showexcluded",
+        "stages": [
+            {
+                "img": "images/settings/on.png",
+                "inherit_codes": false,
+                "codes": "showexcluded_on"
+            },
+            {
+                "img": "images/settings/off.png",
+                "inherit_codes": false,
+                "codes": "showexcluded_off"
+            }
+        ]
     }
 ]

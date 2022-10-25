@@ -150,6 +150,17 @@ advancement_list = [
     Advancement("Glow and Behold!", Shape.NORMAL),  # 101
     Advancement("Whatever Floats Your Goat!", Shape.NORMAL),  # 102
     Advancement("Archipelago", Shape.NORMAL),  # 103
+    Advancement("Star Trader", Shape.NORMAL),  # 104
+    Advancement("Caves & Cliffs", Shape.NORMAL),  # 105
+    Advancement("Feels like home", Shape.NORMAL),  # 106
+    Advancement("Sound of Music", Shape.NORMAL),  # 107
+    Advancement("You've Got a Friend in Me", Shape.NORMAL),  # 108
+    Advancement("Birthday Song", Shape.NORMAL),  # 109
+    Advancement("Bukkit Bukkit", Shape.NORMAL),  # 110
+    Advancement("When the Squad Hops into Town", Shape.NORMAL),  # 111
+    Advancement("With Our Powers Combined!", Shape.NORMAL),  # 112
+    Advancement("It Spreads", Shape.NORMAL),  # 113
+    Advancement("Sneak 100", Shape.NORMAL),  # 114
 ]
 
 

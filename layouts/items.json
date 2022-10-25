@@ -62,12 +62,18 @@
                 "bed",
                 "campfire",
                 "spyglass",                
-                "saddle"
+                "lead"
             ],            
             [
+                "saddle",
                 "channeling",
                 "silk_touch",
                 "piercing"
+            ],
+            [
+                "sharpness",
+                "looting",
+                "infinity"
             ],
             [
                 "dragon_egg_shards",

@@ -2,9 +2,9 @@
 	"name": "Minecraft Randomizer",
 	"game_name": "Minecraft",
 	"platform": "PC",
-	"package_version": "0.1.0",
+	"package_version": "0.2.0",
 	"package_uid": "minecraft_randomizer_emotracker-neomatamune",
-	"author": "Neomatamune, Cyb3R",
+	"author": "Neomatamune, Cyb3R (AkumaGath17#0725 Edit)",
 	"variants": {
 		"tracker": {
 			"display_name": "Advancement Tracker",

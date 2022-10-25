@@ -93,6 +93,36 @@
                     }
                 ]
             },
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Death Link",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "deathlink_off",                        
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Show Excluded",
+                "header_background": "#3e4b57",                
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "showexcluded_off",                        
+                        "h_alignment": "center",
+                        "v_alignment": "strech"
+                    }
+                ]
+            },
         ]
     }
 }

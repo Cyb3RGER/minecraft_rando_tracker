@@ -77,6 +77,28 @@ function include_unreasonable()
     return 0
 end
 
+function showexcluded()
+    local value = Tracker:ProviderCountForCode("showexcluded_on")
+    if ENABLE_DEBUG_LOG then
+        print(string.format("showexcluded: value: %s",value))
+    end
+    if (value > 0) then
+        return 1
+    end    
+    return 0
+end
+
+function deathlink()
+    local value = Tracker:ProviderCountForCode("deathlink_on")
+    if ENABLE_DEBUG_LOG then
+        print(string.format("deathlink: value: %s",value))
+    end
+    if (value > 0) then
+        return 1
+    end    
+    return 0
+end
+
 function include_postgame(required_goal)
     local value = Tracker:ProviderCountForCode("postgame_on")
     if ENABLE_DEBUG_LOG then
@@ -495,6 +517,17 @@ function spyglass()
     return 0
 end
 
+function lead()
+    local value = Tracker:ProviderCountForCode("lead")
+    if ENABLE_DEBUG_LOG then
+        print(string.format("lead: value: %s",value))
+    end    
+    if(value > 0) then
+        return 1
+    end
+    return 0
+end
+
 function shulker_box()
     local value = Tracker:ProviderCountForCode("shulker_box")
     if ENABLE_DEBUG_LOG then
@@ -670,6 +703,17 @@ function has_spyglass()
     return 0
 end
 
+function has_lead()
+    local value = lead() > 0
+    if ENABLE_DEBUG_LOG then
+        print(string.format("has_lead: value: %s",value))
+    end    
+    if value then
+       return 1
+    end
+    return 0
+end
+
 function can_enchant()
     local value = enchanting() > 0 and has_diamond_pickaxe() > 0
     if ENABLE_DEBUG_LOG then
@@ -740,7 +784,7 @@ end
 
 function can_adventure()
     if difficulty_is_easy() > 0 then --easy
-        local value = weapons_iron() > 0 and has_iron() > 0
+        local value = weapons_iron() > 0 and (crafting_ingots() > 0 or campfire() > 0) and has_iron() > 0 and (deathlink() == 0 or  bed() > 0)
         if ENABLE_DEBUG_LOG then
             print(string.format("can_adventure: value: %s",value))
         end
@@ -758,7 +802,7 @@ function can_adventure()
         end
         return 0
     else --normal
-        local value = weapons_cobble() > 0 and (armor_iron() > 0 or shield() > 0) and has_iron() > 0
+        local value = weapons_cobble() > 0 and (crafting_ingots() > 0 or campfire() > 0) and (deathlink() == 0 or  bed() > 0)
         if ENABLE_DEBUG_LOG then
             print(string.format("can_adventure: value: %s",value))
         end
