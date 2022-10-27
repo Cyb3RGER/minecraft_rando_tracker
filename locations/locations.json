@@ -282,7 +282,7 @@
                     {
                         "name": "Have any type of diamond armor in your inventory.",
                         "access_rules": [
-                            "[$armor_diamond], @Overworld/Diamonds!/Consigue diamante"
+                            "[$armor_diamond], @Overworld/Diamonds!/Have a diamond in your inventory."
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -1075,9 +1075,9 @@
                     {
                         "name": "Use a compass on a lodestone.",
                         "access_rules": [
-                            "[$nether], @Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris, $tools_diamond, [$has_gold]",
-                            "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris], [$has_gold]",
-                            "[$nether], $bastion, [@Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris], [$has_gold]"
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$has_gold]",
+                            "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
+                            "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -1149,9 +1149,9 @@
                     {
                         "name": "Have a full set of netherite armor in your inventory.",
                         "access_rules": [
-                            "$scraps, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Consigue diamante], [@Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris], [$include_hard]",
-                            "$bastion, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Consigue diamante], [@Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris], [$include_hard]",
-                            "[$nether], @Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris, $tools_diamond, [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Consigue diamante], [$include_hard]"
+                            "$scraps, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
+                            "$bastion, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -1677,7 +1677,7 @@
                     {
                         "name": "Use a jukebox while in a meadow.",
                         "access_rules": [
-                            "[$basic_combat], [@Overworld/Diamonds!/Consigue diamante], [$include_hard]"
+                            "[$basic_combat], [@Overworld/Diamonds!/Have a diamond in your inventory.], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -1969,7 +1969,7 @@
                         "name": "Hit a villager with a channeling trident on a thunderstorm.",
                         "access_rules": [
                             "$village, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]",
-                            "@Overworld/Zombie Doctor/Cura a un zombie aldeano con:\n-Lanza pocion de debilidad\n-Manzana Dorada, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                            "@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple., [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -2187,7 +2187,7 @@
                         "name": "Protect a villager from a lightning bolt without starting a fire.",
                         "access_rules": [
                             "$village, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]",
-                            "@Overworld/Zombie Doctor/Cura a un zombie aldeano con:\n-Lanza pocion de debilidad\n-Manzana Dorada, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                            "@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple., [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -2335,9 +2335,9 @@
                     {
                         "name": "Have a netherite hoe in your inventory.",
                         "access_rules": [
-                            "[$nether], @Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris, $tools_diamond, [$has_gold]",
-                            "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris], [$has_gold]",
-                            "[$nether], $bastion, [@Nether/Hidden in the Depths/Consigue el bloque de Ancient Debris], [$has_gold]"
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$has_gold]",
+                            "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
+                            "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -2673,7 +2673,7 @@
                     {
                         "name": "Have an Allay drop a Cake at a Note Block.",
                         "access_rules": [
-                            "@Archipelago/The Lie/Come tarta, [$tools_iron], [$has_iron], [$outpost]"
+                            "@Archipelago/The Lie/Eat a piece of cake., [$tools_iron], [$has_iron], [$outpost]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
