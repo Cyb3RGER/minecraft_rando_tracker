@@ -4,7 +4,7 @@
 	"platform": "PC",
 	"package_version": "0.2.0",
 	"package_uid": "minecraft_randomizer_emotracker-neomatamune",
-	"author": "Neomatamune, Cyb3R (AkumaGath17#0725 Edit)",
+	"author": "Neomatamune, Cyb3R, AkumaGath17#0725",
 	"variants": {
 		"tracker": {
 			"display_name": "Advancement Tracker",
