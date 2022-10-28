@@ -703,17 +703,6 @@ function has_spyglass()
     return 0
 end
 
-function has_lead()
-    local value = lead() > 0
-    if ENABLE_DEBUG_LOG then
-        print(string.format("has_lead: value: %s",value))
-    end    
-    if value then
-       return 1
-    end
-    return 0
-end
-
 function can_enchant()
     local value = enchanting() > 0 and has_diamond_pickaxe() > 0
     if ENABLE_DEBUG_LOG then
