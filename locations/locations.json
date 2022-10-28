@@ -2553,7 +2553,7 @@
                     {
                         "name": "Have each frog variant on a lead.",
                         "access_rules": [
-                            "[$can_adventure], [$lead], [$has_lead], [$include_hard]"
+                            "[$can_adventure], [$lead], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -2577,7 +2577,7 @@
                     {
                         "name": "Have all Froglights in your inventory.",
                         "access_rules": [
-                            "[$can_adventure], [$lead], [$has_lead], [$nether], [$include_hard]",
+                            "[$can_adventure], [$lead], [$nether], [$include_hard]",
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
