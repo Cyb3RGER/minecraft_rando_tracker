@@ -64,7 +64,7 @@
                     {
                         "name": "Have a stone pickaxe in your inventory.",
                         "access_rules": [
-                            "$tools_cobble",
+                            "[$tools_cobble]",
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -994,11 +994,7 @@
                     {
                         "name": "Have a block of crying obsidian in your inventory.",
                         "access_rules": [
-                            "nether, [$can_piglin_trade]",
-                            "bastion, [$can_piglin_trade]",
-                            "$tools_diamond, [$can_piglin_trade]",
-                            "$city, [$can_piglin_trade]",
-                            "$village, [$can_piglin_trade]",
+                            "[$can_piglin_trade]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -1049,9 +1045,7 @@
                         "name": "Have ancient debris in your inventory.",
                         "access_rules": [
                             "$bastion, [$nether], [$can_brew_potions], [$bed], [$has_diamond_pickaxe]",
-                            "$nether, $village, [$can_brew_potions], [$bed], [$has_diamond_pickaxe]",
-                            "$nether, $city, [$can_brew_potions], [$bed], [$has_diamond_pickaxe]",
-                            "$nether, $tools_diamond, [$can_brew_potions], [$bed], [$has_diamond_pickaxe]",
+                            "$nether, [$can_brew_potions], [$bed], [$has_diamond_pickaxe]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -1075,9 +1069,9 @@
                     {
                         "name": "Use a compass on a lodestone.",
                         "access_rules": [
-                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$has_gold]",
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$has_gold]",
                             "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
-                            "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
+                            "[$nether], $bastion, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -1150,8 +1144,8 @@
                         "name": "Have a full set of netherite armor in your inventory.",
                         "access_rules": [
                             "$scraps, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
-                            "$bastion, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
-                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [$include_hard]"
+                            "$bastion, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -1175,7 +1169,10 @@
                     {
                         "name": "Summon the wither.",
                         "access_rules": [
-                            "$fortress, [$can_kill_wither], [$include_postgame|wither]"
+                            "$fortress, [$can_kill_wither], [$include_postgame|wither], [$get_goal|goal_wither]",
+                            "$fortress, [$can_kill_wither], [$include_postgame|wither], [$get_goal|goal_both]",
+                            "$fortress, [$can_kill_wither], [$get_goal|goal_dragon]",
+                            "$fortress, [$can_kill_wither], [$get_goal|goal_none]",
                         ],
                         "visibility_rules": [
                             "showexcluded_off,goal_wither",
@@ -1428,7 +1425,10 @@
                     {
                         "name": "Kill the Ender Dragon.",
                         "access_rules": [
-                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon], [$get_goal|goal_dragon]",
+                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon], [$get_goal|goal_both]",
+                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$get_goal|goal_wither]",
+                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$get_goal|goal_none]",
                         ],
                         "visibility_rules": [
                             "showexcluded_off,goal_dragon",
@@ -1801,6 +1801,9 @@
                             "[$village], [$has_iron], [$bucket], [$nether], [$include_hard]",
                             "[$village], [$has_iron], [$bucket], [$fortress], [$include_hard]",
                             "[$village], [$has_iron], [$bucket], [$can_piglin_trade], [$include_hard]",
+                            "[@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple.], [$has_iron], [$bucket], [$nether], [$include_hard]",
+                            "[@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple.], [$has_iron], [$bucket], [$fortress], [$include_hard]",
+                            "[@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple.], [$has_iron], [$bucket], [$can_piglin_trade], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -2577,7 +2580,8 @@
                     {
                         "name": "Have all Froglights in your inventory.",
                         "access_rules": [
-                            "[$can_adventure], [$lead], [$nether], [$include_hard]",
+                            "$fortress, [$can_adventure], [$lead], [$nether], [$include_hard]",
+                            "$nether, [$can_adventure], [$lead], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
