@@ -184,8 +184,7 @@
                     {
                         "name": "Block any projectile with a shield.",
                         "access_rules": [
-                            "$shield, [$has_iron]",
-                            "$village, [$shield], [$has_iron]"
+                            "[$shield], [$has_iron]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
