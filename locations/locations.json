@@ -1169,14 +1169,12 @@
                     {
                         "name": "Summon the wither.",
                         "access_rules": [
-                            "$fortress, [$can_kill_wither], [$include_postgame|wither], [$get_goal|goal_wither]",
-                            "$fortress, [$can_kill_wither], [$include_postgame|wither], [$get_goal|goal_both]",
-                            "$fortress, [$can_kill_wither], [$get_goal|goal_dragon]",
-                            "$fortress, [$can_kill_wither], [$get_goal|goal_none]",
+                            "$fortress, [$can_kill_wither], [$include_postgame|wither]",
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,goal_wither",
-                            "showexcluded_off,goal_both",
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_dragon",
 
                             "showexcluded_on"
                         ],
@@ -1224,8 +1222,9 @@
                             "$fortress, [$fortress_loot], [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_postgame|wither]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,goal_wither",
-                            "showexcluded_off,goal_both",
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_dragon",
 
                             "showexcluded_on"
                         ],
@@ -1246,11 +1245,12 @@
                     {
                         "name": "Have every potion effect applied at the same time.",
                         "access_rules": [
-                            "$fortress, [$blaze_rods], $brewing, [$can_brew_potions], [$rod], [$nether], [$village], [@Nether/Bring Home The Beacon/Activa un Beacon], [$include_hard], [$include_postgame|wither]"
+                            "$fortress, [$blaze_rods], $brewing, [$can_brew_potions], [$rod], [$nether], [$village], [@Nether/Bring Home The Beacon/Power a beacon.], [$include_hard], [$include_postgame|wither]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,hard_on,goal_wither",
-                            "showexcluded_off,hard_on,goal_both",
+                            "showexcluded_off,hard_on,postgame_on",
+                            "showexcluded_off,hard_on,postgame_off,goal_none",
+                            "showexcluded_off,hard_on,postgame_off,goal_dragon",
 
                             "showexcluded_on"
                         ],
@@ -1274,8 +1274,9 @@
                             "$fortress, [$tools_cobble], [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_hard], [$include_postgame|wither]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,hard_on,goal_wither",
-                            "showexcluded_off,hard_on,goal_both",
+                            "showexcluded_off,hard_on,postgame_on",
+                            "showexcluded_off,hard_on,postgame_off,goal_none",
+                            "showexcluded_off,hard_on,postgame_off,goal_dragon",
 
                             "showexcluded_on"
                         ],
@@ -1296,11 +1297,12 @@
                     {
                         "name": "Have every status effect applied at the same time.",
                         "access_rules": [
-                            "[$nether], $city, $brewing, [$has_gold], [$can_brew_potions], [$rod], [$archery], @Nether/Bring Home The Beacon/Activa un Beacon, @Adventure/Hero of the Village/Supera una raid, [$include_unreasonable], [$include_postgame|wither]"
+                            "[$nether], $city, $brewing, [$has_gold], [$can_brew_potions], [$rod], [$archery], @Nether/Bring Home The Beacon/Power a beacon., @Adventure/Hero of the Village/Successfully defend a village from a raid., [$include_unreasonable], [$include_postgame|wither]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,unreasonable_on,goal_wither",
-                            "showexcluded_off,unreasonable_on,goal_both",
+                            "showexcluded_off,unreasonable_on,postgame_on",
+                            "showexcluded_off,unreasonable_on,postgame_off,goal_none",
+                            "showexcluded_off,unreasonable_on,postgame_off,goal_dragon",
 
                             "showexcluded_on"
                         ],
@@ -1377,8 +1379,9 @@
                             "$_end, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,goal_dragon",
-                            "showexcluded_off,goal_both",
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
 
                             "showexcluded_on"
                         ],
@@ -1425,14 +1428,12 @@
                     {
                         "name": "Kill the Ender Dragon.",
                         "access_rules": [
-                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon], [$get_goal|goal_dragon]",
-                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon], [$get_goal|goal_both]",
-                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$get_goal|goal_wither]",
-                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$get_goal|goal_none]",
+                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,goal_dragon",
-                            "showexcluded_off,goal_both",
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
 
                             "showexcluded_on"
                         ],
@@ -1456,8 +1457,9 @@
                             "$_end, [$can_kill_ender_dragon], [$include_postgame|dragon]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,goal_dragon",
-                            "showexcluded_off,goal_both",
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
 
                             "showexcluded_on"
                         ],
@@ -1529,8 +1531,9 @@
                             "$_end, [$can_respawn_ender_dragon], [$has_bottle], [$include_postgame|dragon]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,goal_dragon",
-                            "showexcluded_off,goal_both",
+                        	"showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
 
                             "showexcluded_on"
                         ],
@@ -1902,7 +1905,8 @@
                             "$_end, $nether, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$can_kill_wither], [$rod], [$include_hard], [$include_postgame|dragon], [$include_postgame|wither]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,hard_on,goal_both",
+                            "showexcluded_off,hard_on,postgame_on",
+                            "showexcluded_off,hard_on,postgame_off,goal_none",
 
                             "showexcluded_on"
                         ],
@@ -2119,8 +2123,9 @@
                             "$spyglass, [$has_spyglass], [$include_postgame|dragon]"
                         ],
                         "visibility_rules": [
-                            "showexcluded_off,goal_dragon",
-                            "showexcluded_off,goal_both",
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
 
                             "showexcluded_on"
                         ],

@@ -104,24 +104,24 @@ function include_postgame(required_goal)
     if ENABLE_DEBUG_LOG then
         print(string.format("include_postgame: value: %s",value))
     end
-    if (value > 0) then
+    if (value == 0) then
         local goal = get_goal()
         if ENABLE_DEBUG_LOG then
             print(string.format("include_postgame: goal: %s",goal))
         end
         if goal == 0 then
-            return 0
+            return 1
         elseif (goal == 1 or goal == 3) and required_goal == "dragon" then
-            return 1
+            return 0
         elseif (goal == 2 or goal == 3) and required_goal == "wither" then
-            return 1
+            return 0
         else
             if ENABLE_DEBUG_LOG then
                 print(string.format("include_postgame: unknown goal value: %s",goal))
             end
         end
     end    
-    return 0
+    return 1
 end
 
 function get_goal()
