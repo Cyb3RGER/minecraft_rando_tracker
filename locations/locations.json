@@ -1,5 +1,6 @@
 [
-    {
+    { 	// <- Add slashes like this to the advancement's visibility_rules except "showexcluded_on" to exclude an advancement in particular
+    	/* Or this way */
         "name": "Overworld",
         "children": [
             {
@@ -13,9 +14,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Minecraft",
+                        "name": "Have a crafting table in your inventory.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -32,9 +38,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Stone Age",
+                        "name": "Have cobblestone, blackstone, or cobbled deepslate in your inventory.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -51,10 +62,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Getting an Upgrade",
+                        "name": "Have a stone pickaxe in your inventory.",
                         "access_rules": [
-                            "$tools_cobble",
-                            "village, [$tools_cobble]"
+                            "[$tools_cobble]",
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -71,9 +86,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Acquire Hardware",
+                        "name": "Have an iron ingot in your inventory.",
                         "access_rules": [
                             "[$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -90,9 +110,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Suit Up",
+                        "name": "Have any type of iron armor in your inventory.",
                         "access_rules": [
                             "[$armor_iron], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -109,9 +134,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hot Stuff",
+                        "name": "Have a lava bucket in your inventory.",
                         "access_rules": [
                             "[bucket], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -128,10 +158,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Isn't it Iron Pick",
+                        "name": "Have an iron pickaxe in your inventory.",
                         "access_rules": [
-                            "$tools_iron, [$has_iron]",
-                            "$village, [$tools_iron], [$has_iron]"
+                            "[$tools_iron], [$has_iron]",
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -148,10 +182,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Not Today, Thank You",
+                        "name": "Block any projectile with a shield.",
                         "access_rules": [
-                            "$shield, [$has_iron]",
-                            "$village, [$shield], [$has_iron]"
+                            "[$shield], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -168,9 +206,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ice Bucket Challenge",
+                        "name": "Have a block of obsidian in your inventory.",
                         "access_rules": [
                             "[$has_diamond_pickaxe]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -187,9 +230,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Diamonds!",
+                        "name": "Have a diamond in your inventory.",
                         "access_rules": [
                             "[$tools_iron], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -206,9 +254,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "We Need to Go Deeper",
+                        "name": "Enter the Nether dimension.",
                         "access_rules": [
                             "[$nether_access]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 0,
                         "hosted_item": "nether"
@@ -226,9 +279,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cover Me With Diamonds",
+                        "name": "Have any type of diamond armor in your inventory.",
                         "access_rules": [
-                            "[$armor_diamond], @Overworld/Diamonds!/Diamonds!"
+                            "[$armor_diamond], @Overworld/Diamonds!/Have a diamond in your inventory."
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -245,9 +303,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Enchanter",
+                        "name": "Enchant an item at an enchanting table.",
                         "access_rules": [
                             "$enchanting, [$can_enchant]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -264,9 +327,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Zombie Doctor",
+                        "name": "Cure a zombie villager using weakness and a golden apple.",
                         "access_rules": [
                             "[$can_brew_potions], [$has_gold]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -283,9 +351,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Eye Spy",
+                        "name": "Enter a stronghold.",
                         "access_rules": [
                             "[$enter_stronghold]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -302,9 +375,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "The End?",
+                        "name": "Enter the End dimension.",
                         "access_rules": [
-                            "[$end_access]"
+                            "$brewing, $fortress, [$end_access]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 0,
                         "hosted_item": "end"
@@ -327,9 +405,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Archipelago",
+                        "name": "Good luck!",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            //No, not this one
                         ],
                         "item_count": 0
                     }
@@ -346,9 +427,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Getting Wood",
+                        "name": "Have wooden logs in your inventory",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -365,9 +451,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Time to Mine!",
+                        "name": "Craft a wooden pickaxe.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -384,9 +475,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hot Topic",
+                        "name": "Have a furnace in your inventory.",
                         "access_rules": [
                             "[$crafting_ingots]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -403,9 +499,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Time to Strike!",
+                        "name": "Craft a wooden sword.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -422,10 +523,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Overkill",
+                        "name": "Deal 9 hearts of damage in a single hit.",
                         "access_rules": [
                             "[$fortress], [$can_brew_potions], [$weapons_cobble]",
                             "[$fortress], [$can_brew_potions], [$nether]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -442,9 +548,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cow Tipper",
+                        "name": "Have leather in your inventory.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -461,9 +572,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Librarian",
+                        "name": "Craft a bookshelf.",
                         "access_rules": [
                             "[$enchanting]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -480,10 +596,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "When Pigs Fly",
+                        "name": "Fall off a cliff on a pig.",
                         "access_rules": [
                             "[$fortress_loot], [$saddle], [$rod], [$can_adventure]",
                             "[$complete_raid], [$saddle], [$rod], [$can_adventure]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -500,9 +621,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bake Bread",
+                        "name": "Craft bread.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -519,9 +645,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Lie",
+                        "name": "Eat a piece of cake.",
                         "access_rules": [
                             "[$has_iron], [$bucket]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -538,9 +669,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Overpowered",
+                        "name": "Eat a notch apple.\n(8 Gold Blocks + Apple craft)",
                         "access_rules": [
                             "[$bastion], [$has_iron], [$tools_iron], [$basic_combat]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -557,9 +693,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "On A Rail",
+                        "name": "Travel 1km by minecart.",
                         "access_rules": [
                             "[$has_iron], [$tools_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -581,9 +722,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Nether",
+                        "name": "Enter the nether dimension.\n(Logically unlocked with: We Need To Go Deeper)",
                         "access_rules": [
                             "$nether"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -600,9 +746,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Subspace Bubble",
+                        "name": "Use the nether to travel 7km in the overworld, or 875 blocks in the nether.",
                         "access_rules": [
                             "$nether, [$has_diamond_pickaxe]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -619,10 +770,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Oh Shiny",
+                        "name": "Give a piglin gold while it's angry.",
                         "access_rules": [
                             "nether, [$can_piglin_trade]",
                             "bastion, [$can_piglin_trade]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -639,9 +795,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Return to Sender",
+                        "name": "Kill a ghast with it's own fireball.",
                         "access_rules": [
                             "[$nether]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -658,12 +819,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Uneasy Alliance",
+                        "name": "Kill a ghast while in the overworld.",
                         "access_rules": [
-                            "$nether, $has_diamond_pickaxe, [$rod], [$include_hard]",
-                            "$nether, $village, [$has_diamond_pickaxe], [$rod], [$include_hard]",
-                            "$nether, $city, [$has_diamond_pickaxe], [$rod], [$include_hard]",
-                            "$nether, $bastion, [$has_diamond_pickaxe], [$rod], [$include_hard]"
+                            "$nether, [$has_diamond_pickaxe], [$rod], [$include_hard]",
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -680,9 +843,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hot Tourist Destinations",
+                        "name": "Visit all 5 Nether biomes.",
                         "access_rules": [
                             "$nether"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -699,10 +867,40 @@
                 ],
                 "sections": [
                     {
-                        "name": "This Boat Has Legs",
+                        "name": "Feed a strider warped fungus on a stick while riding on it.",
                         "access_rules": [
                             "$nether, [$saddle], [$rod], [$fortress_loot]",
                             "$nether, [$saddle], [$rod], [$complete_raid]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Feels like home",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 66,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Travel 50 blocks on lava using a strider in the overworld.",
+                        "access_rules": [
+                            "[$fortress_loot], [$has_iron], [$bucket], [$rod], [$saddle], $nether",
+                            "[$complete_raid], [$has_iron], [$bucket], [$rod], [$saddle], $nether"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -719,10 +917,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Those Were the Days",
+                        "name": "Enter a bastion.",
                         "access_rules": [
                             "[$is_struct_shuffle], [$bastion_access], [$_end], [$nether]",
                             "$is_not_struct_shuffle, $bastion_access"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 0,
                         "hosted_item": "bastion"
@@ -740,9 +943,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "War Pigs",
+                        "name": "Open a naturally generated chest in a bastion.",
                         "access_rules": [
                             "$bastion, [$basic_combat]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -759,10 +967,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Not Quite \"Nine\" Lives",
+                        "name": "Fully charge a respawn anchor using 4 blocks of Glowstone on it.",
                         "access_rules": [
-                            "$nether, [$can_piglin_trade], [$crafting_blocks]",
-                            "$nether, [$bastion], [$can_piglin_trade], [$crafting_blocks]"
+                            "$nether, [$can_piglin_trade], [$crafting_blocks]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -779,10 +991,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Who is Cutting Onions?",
+                        "name": "Have a block of crying obsidian in your inventory.",
                         "access_rules": [
-                            "nether, [$can_piglin_trade]",
-                            "bastion, [$can_piglin_trade]"
+                            "[$can_piglin_trade]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -799,10 +1015,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Terrible Fortress",
+                        "name": "Enter a nether fortress.",
                         "access_rules": [
                             "[$is_struct_shuffle], [$fortress_access], [$_end], [$nether]",
                             "$is_not_struct_shuffle, $fortress_access"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 0,
                         "hosted_item": "fortress"
@@ -820,9 +1041,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hidden in the Depths",
+                        "name": "Have ancient debris in your inventory.",
                         "access_rules": [
-                            "$bastion, [$nether], [$can_brew_potions], [$bed], [$has_diamond_pickaxe]"
+                            "$bastion, [$nether], [$can_brew_potions], [$bed], [$has_diamond_pickaxe]",
+                            "$nether, [$can_brew_potions], [$bed], [$has_diamond_pickaxe]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -839,10 +1066,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Country Lode, Take Me Home",
+                        "name": "Use a compass on a lodestone.",
                         "access_rules": [
-                            "[$nether], @Nether/Hidden in the Depths/Hidden in the Depths, [$has_gold]",
-                            "[$nether], $scraps, [@Nether/Hidden in the Depths/Hidden in the Depths], [$has_gold]"
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$has_gold]",
+                            "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
+                            "[$nether], $bastion, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -859,9 +1092,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Spooky Scary Skeleton",
+                        "name": "Have a wither skeleton skull in your inventory.",
                         "access_rules": [
                             "$fortress, [$basic_combat]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -878,9 +1116,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Into Fire",
+                        "name": "Have a blaze rod in your inventory.",
                         "access_rules": [
                             "$fortress, [$basic_combat]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -897,9 +1140,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cover Me in Debris",
+                        "name": "Have a full set of netherite armor in your inventory.",
                         "access_rules": [
-                            "[$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Diamonds!], @Nether/Hidden in the Depths/Hidden in the Depths, [$include_hard]"
+                            "$scraps, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
+                            "$bastion, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -916,9 +1166,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Withering Heights",
+                        "name": "Summon the wither.",
                         "access_rules": [
-                            "$fortress, [$can_kill_wither], [$include_postgame|wither]"
+                            "$fortress, [$can_kill_wither], [$include_postgame|wither]",
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_dragon",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -935,9 +1192,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Local Brewery",
+                        "name": "Take an item from a brewing stand bottle slot.",
                         "access_rules": [
-                            "[$can_adventure], [$can_brew_potions]"
+                            "[$can_brew_potions]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -954,9 +1216,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bring Home The Beacon",
+                        "name": "Power a beacon.",
                         "access_rules": [
-                            "$fortress, [$can_adventure], [$fortress_loot], [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_postgame|wither]"
+                            "$fortress, [$fortress_loot], [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_postgame|wither]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_dragon",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -973,9 +1242,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Furious Cocktail",
+                        "name": "Have every potion effect applied at the same time.",
                         "access_rules": [
-                            "[$can_adventure], $fortress, [$blaze_rods], $brewing, [$can_brew_potions], [$rod], $nether, [$village], [@Nether/Bring Home The Beacon/Bring Home The Beacon], [$include_hard], [$include_postgame|wither]"
+                            "$fortress, [$blaze_rods], $brewing, [$can_brew_potions], [$rod], [$nether], [$village], [@Nether/Bring Home The Beacon/Power a beacon.], [$include_hard], [$include_postgame|wither]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on,postgame_on",
+                            "showexcluded_off,hard_on,postgame_off,goal_none",
+                            "showexcluded_off,hard_on,postgame_off,goal_dragon",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -992,9 +1268,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Beaconator",
+                        "name": "Fully power a beacon.",
                         "access_rules": [
-                            "$fortress, $tools_cobble, [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_hard]"
+                            "$fortress, [$tools_cobble], [$can_kill_wither], [$has_diamond_pickaxe], [$crafting_blocks], [$include_hard], [$include_postgame|wither]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on,postgame_on",
+                            "showexcluded_off,hard_on,postgame_off,goal_none",
+                            "showexcluded_off,hard_on,postgame_off,goal_dragon",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1011,9 +1294,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "How Did We Get Here?",
+                        "name": "Have every status effect applied at the same time.",
                         "access_rules": [
-                            "$nether, $city, [$rod], [$archery], @Nether/Bring Home The Beacon/Bring Home The Beacon, @Adventure/Hero of the Village/Hero of the Village, [$include_unreasonable], [$include_postgame|wither]"
+                            "[$nether], $city, $brewing, [$has_gold], [$can_brew_potions], [$rod], [$archery], @Nether/Bring Home The Beacon/Power a beacon., @Adventure/Hero of the Village/Successfully defend a village from a raid., [$include_unreasonable], [$include_postgame|wither]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,unreasonable_on,postgame_on",
+                            "showexcluded_off,unreasonable_on,postgame_off,goal_none",
+                            "showexcluded_off,unreasonable_on,postgame_off,goal_dragon",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1035,9 +1325,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "The End",
+                        "name": "Enter the End dimension.\n(Logically unlocked with: The End?)",
                         "access_rules": [
                             "end"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1054,9 +1349,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Remote Getaway",
+                        "name": "Use an end gateway.",
                         "access_rules": [
                             "$_end"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1073,9 +1373,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "The End... Again...",
+                        "name": "Summon the ender dragon using end crystals.",
                         "access_rules": [
                             "$_end, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1092,10 +1399,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "The City At The End Of The Game",
+                        "name": "Enter an end city.",
                         "access_rules": [
                             "[$is_struct_shuffle], [$city_access], [$_end], [$nether]",
                             "$is_not_struct_shuffle, $city_access"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 0,
                         "hosted_item": "city"
@@ -1113,9 +1425,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Free The End",
+                        "name": "Kill the Ender Dragon.",
                         "access_rules": [
-                            "nether, end, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                            "end, [$nether], [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1132,9 +1451,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Next Generation",
+                        "name": "Have the dragon egg in your inventory.",
                         "access_rules": [
                             "$_end, [$can_kill_ender_dragon], [$include_postgame|dragon]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1151,9 +1477,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sky's The Limit",
+                        "name": "Have a pair of elytra in your inventory.",
                         "access_rules": [
                             "$city, [$basic_combat]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1170,9 +1501,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Great View From Up Here",
+                        "name": "Move 50 blocks upwards while under the effects of levitation.",
                         "access_rules": [
                             "city, [$basic_combat]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1189,9 +1525,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "You Need a Mint",
+                        "name": "Have a bottle of dragon's breath in your inventory.",
                         "access_rules": [
                             "$_end, [$can_respawn_ender_dragon], [$has_bottle], [$include_postgame|dragon]"
+                        ],
+                        "visibility_rules": [
+                        	"showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1213,9 +1556,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Adventure",
+                        "name": "Kill or be killed.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1232,9 +1580,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Two Birds, One Arrow",
+                        "name": "Use a piercing crossbow to kill two phantoms with one shot.",
                         "access_rules": [
-                            "$craft_crossbow, $can_enchant, [$include_hard]"
+                            "[$craft_crossbow], [$can_enchant], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1251,9 +1604,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sticky Situation",
+                        "name": "Collide on a vertical side of a honey block when in air.",
                         "access_rules": [
                             "[$campfire], [$bottles]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1270,10 +1628,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sweet Dreams",
+                        "name": "Sleep.",
                         "access_rules": [
-                            "$bed",
-                            "$village"
+                            "[$bed]",
+                            "[$village]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1290,9 +1653,38 @@
                 ],
                 "sections": [
                     {
-                        "name": "Adventuring Time",
+                        "name": "Visit all 52 biomes.",
                         "access_rules": [
                             "[$can_adventure], [$include_unreasonable]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,unreasonable_on",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sound of Music",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 738,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Use a jukebox while in a meadow.",
+                        "access_rules": [
+                            "[$basic_combat], [@Overworld/Diamonds!/Have a diamond in your inventory.], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1309,9 +1701,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Who's the Pillager Now?",
+                        "name": "Use a crossbow to kill a pillager.",
                         "access_rules": [
                             "[$outpost], [$craft_crossbow]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1328,9 +1725,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ol' Betsy",
+                        "name": "Fire a crossbow.",
                         "access_rules": [
                             "[$craft_crossbow]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1347,10 +1749,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "What a Deal!",
+                        "name": "Trade with a villager or wandering trader.",
                         "access_rules": [
-                            "[$is_struct_shuffle], [$village_access], [$_end], [$nether]",
-                            "$is_not_struct_shuffle, $village_access"
+                            "[$village]",
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1367,10 +1773,44 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hired Help",
+                        "name": "Summon an iron golem.",
                         "access_rules": [
                             "$crafting_blocks, [$has_iron]",
                             "$bastion, [$crafting_blocks], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Star Trader",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 906,
+                        "y": 738
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Trade with a villager while at build height.",
+                        "access_rules": [
+                            "[$village], [$has_iron], [$bucket], [$nether], [$include_hard]",
+                            "[$village], [$has_iron], [$bucket], [$fortress], [$include_hard]",
+                            "[$village], [$has_iron], [$bucket], [$can_piglin_trade], [$include_hard]",
+                            "[@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple.], [$has_iron], [$bucket], [$nether], [$include_hard]",
+                            "[@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple.], [$has_iron], [$bucket], [$fortress], [$include_hard]",
+                            "[@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple.], [$has_iron], [$bucket], [$can_piglin_trade], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1387,9 +1827,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Arbalistic",
+                        "name": "Kill 5 different mobs with one crossbow shot.",
                         "access_rules": [
                             "[$craft_crossbow], [$piercing], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1406,9 +1851,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Voluntary Exile",
+                        "name": "Get the Bad omen effect.",
                         "access_rules": [
                             "[$outpost], [$basic_combat]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1425,9 +1875,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hero of the Village",
+                        "name": "Successfully defend a village from a raid.",
                         "access_rules": [
-                            "$village, [$complete_raid]"
+                            "[$village], [$complete_raid]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1444,9 +1899,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Monsters Hunted",
+                        "name": "Kill at least one of every hostile monster.\n(Warden not included)",
                         "access_rules": [
                             "$_end, $nether, [$can_respawn_ender_dragon], [$can_kill_ender_dragon], [$can_kill_wither], [$rod], [$include_hard], [$include_postgame|dragon], [$include_postgame|wither]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on,postgame_on",
+                            "showexcluded_off,hard_on,postgame_off,goal_none",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1463,9 +1924,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Monster Hunter",
+                        "name": "Kill a hostile monster.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1482,9 +1948,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Throwaway Joke",
+                        "name": "Hit something with a thrown trident.",
                         "access_rules": [
                             "[$can_adventure]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1501,10 +1972,39 @@
                 ],
                 "sections": [
                     {
-                        "name": "Very Very Frightening",
+                        "name": "Hit a villager with a channeling trident on a thunderstorm.",
                         "access_rules": [
                             "$village, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]",
-                            "@Overworld/Zombie Doctor/Zombie Doctor, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                            "@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple., [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "It Spreads",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1158,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill a mob near a sculk catalyst.",
+                        "access_rules": [
+                            "[$can_adventure], [$has_iron], [$tools_iron]",
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1521,9 +2021,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Postmortal",
+                        "name": "Use a totem of undying.",
                         "access_rules": [
                             "[$village], [$complete_raid]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1540,9 +2045,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Take Aim",
+                        "name": "Shoot something with a bow or a crossbow.",
                         "access_rules": [
                             "[$archery]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1559,9 +2069,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sniper Duel",
+                        "name": "Kill a skeleton from at least 50m away.",
                         "access_rules": [
                             "[$archery]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1578,9 +2093,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bullseye",
+                        "name": "Hit the bullseye of a target block from at least 30m away.",
                         "access_rules": [
                             "[$archery], [$tools_iron], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1597,9 +2117,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Is It a Plane?",
+                        "name": "Look at the ender dragon through a spyglass.",
                         "access_rules": [
                             "$spyglass, [$has_spyglass], [$include_postgame|dragon]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,postgame_on",
+                            "showexcluded_off,postgame_off,goal_none",
+                            "showexcluded_off,postgame_off,goal_wither",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1616,9 +2143,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Is It a Balloon?",
+                        "name": "Look at a ghast through a spyglass.",
                         "access_rules": [
                             "$spyglass, [$has_spyglass]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1635,9 +2167,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Is It a Bird?",
+                        "name": "Look at a parrot through a spyglass.",
                         "access_rules": [
                             "$spyglass, [$has_spyglass]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1654,10 +2191,62 @@
                 ],
                 "sections": [
                     {
-                        "name": "Surge Protector",
+                        "name": "Protect a villager from a lightning bolt without starting a fire.",
                         "access_rules": [
                             "$village, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]",
-                            "@Overworld/Zombie Doctor/Zombie Doctor, [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                            "@Overworld/Zombie Doctor/Cure a zombie villager using weakness and a golden apple., [$channeling], [$can_use_anvil], [$can_enchant], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Caves & Cliffs",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1074,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fall from build height to bedrock without taking damage.",
+                        "access_rules": [
+                            "[$tools_iron], [$has_iron], [$bucket]"],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sneak 100",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1242,
+                        "y": 654
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sneak while close to a sculk sensor or warden.",
+                        "access_rules": [
+                            "[$can_adventure], [$has_iron], [$tools_iron]",
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1674,9 +2263,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Light as a Rabbit",
+                        "name": "Walk on powder snow while wearing leather boots.",
                         "access_rules": [
-                            "[$can_adventure], [$has_iron], [$bucket], [$include_hard]"
+                            "[$can_adventure], [$has_iron], [$bucket]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1698,9 +2292,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Husbandry",
+                        "name": "Eat something.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1717,9 +2316,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Balanced Diet",
+                        "name": "Eat all 40 foods.",
                         "access_rules": [
-                            "[$village], [$bottles], [$has_gold], [$crafting_blocks], $_end, $tools_cobble, [$include_hard]"
+                            "[$village], [$bottles], [$has_gold], [$crafting_blocks], $_end, [$tools_cobble], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1736,10 +2340,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Serious Dedication",
+                        "name": "Have a netherite hoe in your inventory.",
                         "access_rules": [
-                            "[$nether], @Nether/Hidden in the Depths/Hidden in the Depths, [$has_gold]",
-                            "[$nether], $scraps, [@Nether/Hidden in the Depths/Hidden in the Depths], [$has_gold]"
+                            "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$has_gold]",
+                            "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
+                            "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1756,9 +2366,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Seedy Place",
+                        "name": "Plant a seed and watch it grow.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1775,9 +2390,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fishy Business",
+                        "name": "Use a fishing rod to catch a fish.",
                         "access_rules": [
                             "[$rod]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1794,9 +2414,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Tactical Fishing",
+                        "name": "Use a bucket on a fish.",
                         "access_rules": [
-                            "[$bucket], [$has_iron]"
+                            "[$bucket], [$has_iron], "
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1813,9 +2438,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bee Our Guest",
+                        "name": "Use a campfire to collect honey without making the bees angry.",
                         "access_rules": [
                             "[$campfire], [$has_bottle]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1832,9 +2462,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Best Friends Forever",
+                        "name": "Tame a mob.",
                         "access_rules": [
                             "overworld"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1851,9 +2486,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Complete Catalogue",
+                        "name": "Tame all 11 cats.",
                         "access_rules": [
                             "[$village], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1870,14 +2510,92 @@
                 ],
                 "sections": [
                     {
-                        "name": "Total Beelocation",
+                        "name": "Move a bee nest, with 3 bees inside, using silk touch.",
                         "access_rules": [
                             "[$silk_touch], [$can_use_anvil], [$can_enchant]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
                 ]
-            },            
+            },
+            {
+                "name": "Bukkit Bukkit",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1242,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Catch a tadpole in a bucket.",
+                        "access_rules": [
+                            "[$bucket], [$has_iron], [$can_adventure]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "When the Squad Hops into Town",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1242,
+                        "y": 906
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Have each frog variant on a lead.",
+                        "access_rules": [
+                            "[$can_adventure], [$lead], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "With Our Powers Combined!",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 1242,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Have all Froglights in your inventory.",
+                        "access_rules": [
+                            "$fortress, [$can_adventure], [$lead], [$nether], [$include_hard]",
+                            "$nether, [$can_adventure], [$lead], [$include_hard]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },                
             {
                 "name": "The Parrots and the Bats",
                 "map_locations": [
@@ -1889,9 +2607,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Parrots and the Bats",
+                        "name": "Breed two animals.",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1908,9 +2631,62 @@
                 ],
                 "sections": [
                     {
-                        "name": "Two by Two",
+                        "name": "Breed all 22 animals.",
                         "access_rules": [
-                            "$nether, $has_iron, [$can_adventure], [$include_hard]"
+                            "$nether, [$has_iron], [$can_adventure], [$include_hard], [$bucket]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off,hard_on",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "You've Got a Friend in Me",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 822,
+                        "y": 1074
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Have an Allay deliver items to you.",
+                        "access_rules": [
+                            "[$outpost]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Birthday Song",
+                "map_locations": [
+                    {
+                        "map": "all",
+                        "x": 822,
+                        "y": 1158
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Have an Allay drop a Cake at a Note Block.",
+                        "access_rules": [
+                            "@Archipelago/The Lie/Eat a piece of cake., [$tools_iron], [$has_iron], [$outpost]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1927,9 +2703,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Wax On",
+                        "name": "Apply honeycomb to a copper block.",
                         "access_rules": [
                             "[$has_copper], [$campfire], $crafting_blocks"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1946,9 +2727,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Wax Off",
+                        "name": "Scrape wax off of a copper block.",
                         "access_rules": [
                             "[$has_copper], [$campfire], $crafting_blocks"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1965,9 +2751,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Glow and Behold!",
+                        "name": "Use glow ink on a sign.",
                         "access_rules": [
                             "[$can_adventure]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -1984,9 +2775,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Whatever Floats Your Goat!",
+                        "name": "Get in a boat with a goat.",
                         "access_rules": [
                             "[$can_adventure]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -2003,9 +2799,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Cutest Predator",
+                        "name": "Catch an axolotl in a bucket.",
                         "access_rules": [
                             "[$bucket], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }
@@ -2022,9 +2823,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Healing Power of Friendship",
+                        "name": "Have an axolotl heal you by helping it in a fight.",
                         "access_rules": [
                             "[$bucket], [$has_iron]"
+                        ],
+                        "visibility_rules": [
+                            "showexcluded_off",
+
+                            "showexcluded_on"
                         ],
                         "item_count": 1
                     }

@@ -1,3 +1,8 @@
+0.2.0:
+* Added missing features (1.18 and 1.19 advancements, lead item, missing books)
+* Logic tweaks (Mostly can_adventure and Post Game Advancements)
+* New settings
+
 0.1.0:
 * Added missing features (1.17.1 advancements, structure shuffle logic, dragon egg shards, etc.)
 * Logic rewrite

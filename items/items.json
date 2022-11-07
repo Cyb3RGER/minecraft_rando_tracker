@@ -205,6 +205,12 @@
         "codes": "spyglass"
     },
     {
+        "name": "Lead",
+        "type": "toggle",
+        "img": "images/items/lead.png",
+        "codes": "lead"
+    },
+    {
         "name": "Channeling Book",
         "type": "toggle",
         "img": "images/items/enchanted_book.png",
@@ -224,6 +230,27 @@
         "img": "images/items/enchanted_book.png",
         "img_mods": "overlay|images/items/piercing.png",
         "codes": "piercing"
+    },
+    {
+        "name": "Sharpness Book",
+        "type": "toggle",
+        "img": "images/items/enchanted_book.png",
+        "img_mods": "overlay|images/items/sharpness.png",
+        "codes": "sharpness"
+    },
+    {
+        "name": "Looting Book",
+        "type": "toggle",
+        "img": "images/items/enchanted_book.png",
+        "img_mods": "overlay|images/items/looting.png",
+        "codes": "looting"
+    },
+    {
+        "name": "Infinity Book",
+        "type": "toggle",
+        "img": "images/items/enchanted_book.png",
+        "img_mods": "overlay|images/items/infinity.png",
+        "codes": "infinity"
     },
     {
         "name": "Structure Compass (Village)",

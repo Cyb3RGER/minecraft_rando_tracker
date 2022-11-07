@@ -16,4 +16,9 @@ The pack does not autotrack the village and pillager outpost structures, as thes
 
 ## Known Issues
 
-The pack doesn't track yet if you have enough advancements and/or dragon egg shards to reach the goal or kill the ender dragon. Therefore postgame locations might appear as "in logic" when in reality you can reach them yet as you are still missing the nessaracy advancements and/or dragon egg shards
+The pack doesn't track yet if you have enough advancements and/or dragon egg shards to reach the goal or kill the ender dragon. Therefore postgame locations might appear as "in logic" when in reality you can't reach them yet as you are still missing the necessary advancements and/or dragon egg shards.
+
+## About 0.2.0 new features
+
+If you want to exclude an advancement in particular (because you also can on the .yaml from Archipelago) just go to: 
+/locations/locations.json and comment the advancement's visibility_rules except "showexcluded_on", these will keep appearing when using "Show Excluded: On".
