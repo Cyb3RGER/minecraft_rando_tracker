@@ -64,7 +64,7 @@
                     {
                         "name": "Have a stone pickaxe in your inventory.",
                         "access_rules": [
-                            "[$tools_cobble]",
+                            "[$tools_cobble]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -160,7 +160,7 @@
                     {
                         "name": "Have an iron pickaxe in your inventory.",
                         "access_rules": [
-                            "[$tools_iron], [$has_iron]",
+                            "[$tools_iron], [$has_iron]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -409,7 +409,7 @@
                         "access_rules": [
                             ""
                         ],
-                        "visibility_rules": [
+                        "visibility_rules": [                         
                             //No, not this one
                         ],
                         "item_count": 0
@@ -821,7 +821,7 @@
                     {
                         "name": "Kill a ghast while in the overworld.",
                         "access_rules": [
-                            "$nether, [$has_diamond_pickaxe], [$rod], [$include_hard]",
+                            "$nether, [$has_diamond_pickaxe], [$rod], [$include_hard]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,hard_on",
@@ -1168,7 +1168,7 @@
                     {
                         "name": "Summon the wither.",
                         "access_rules": [
-                            "$fortress, [$can_kill_wither], [$include_postgame|wither]",
+                            "$fortress, [$can_kill_wither], [$include_postgame|wither]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off,postgame_on",
@@ -1751,7 +1751,7 @@
                     {
                         "name": "Trade with a villager or wandering trader.",
                         "access_rules": [
-                            "[$village]",
+                            "[$village]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -1999,7 +1999,7 @@
                     {
                         "name": "Kill a mob near a sculk catalyst.",
                         "access_rules": [
-                            "[$can_adventure], [$has_iron], [$tools_iron]",
+                            "[$can_adventure], [$has_iron], [$tools_iron]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",
@@ -2241,7 +2241,7 @@
                     {
                         "name": "Sneak while close to a sculk sensor or warden.",
                         "access_rules": [
-                            "[$can_adventure], [$has_iron], [$tools_iron]",
+                            "[$can_adventure], [$has_iron], [$tools_iron]"
                         ],
                         "visibility_rules": [
                             "showexcluded_off",

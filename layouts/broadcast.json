@@ -6,7 +6,7 @@
     "tracker_broadcast": {
         "type": "array",
         "dropshadow": false,
-        "margin": "0",
+        "margin": 0,
         "content": [
             {
                 "type": "layout",
