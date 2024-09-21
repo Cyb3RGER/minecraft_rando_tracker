@@ -1,5 +1,5 @@
 -- Configuration --------------------------------------
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = true or ENABLE_DEBUG_LOG
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY
 -------------------------------------------------------
@@ -15,15 +15,20 @@ end
 print("---------------------------------------------------------------------")
 print("")
 
-CUR_INDEX = -1
-
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/slot_data.lua")
 
-function onClear()
+CUR_INDEX = -1
+SLOT_DATA = {}
+LOCAL_ITEMS = {}
+GLOBAL_ITEMS = {}
+
+function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
         print(string.format("called onClear"))
     end
+	SLOT_DATA = slot_data
     CUR_INDEX = -1
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -64,6 +69,9 @@ function onClear()
             end
         end
     end
+    LOCAL_ITEMS = {}
+    GLOBAL_ITEMS = {}
+    get_slot_options(slot_data)
 end
 
 function onItem(index, item_id, item_name)
