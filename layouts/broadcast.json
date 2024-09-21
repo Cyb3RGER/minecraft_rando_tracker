@@ -1,17 +1,17 @@
 {
-    "broadcast_item_grid": {
+  "broadcast_item_grid": {
+    "type": "layout",
+    "key": "shared_item_grid"
+  },
+  "tracker_broadcast": {
+    "type": "array",
+    "dropshadow": false,
+    "margin": 0,
+    "content": [
+      {
         "type": "layout",
-        "key": "shared_item_grid"
-    },
-    "tracker_broadcast": {
-        "type": "array",
-        "dropshadow": false,
-        "margin": 0,
-        "content": [
-            {
-                "type": "layout",
-                "key": "broadcast_item_grid"
-            }
-        ]
-    }
+        "key": "broadcast_item_grid"
+      }
+    ]
+  }
 }

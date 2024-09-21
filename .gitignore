@@ -2,3 +2,4 @@
 .idea
 *.xcf
 *.log
+.luarc.json

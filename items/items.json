@@ -1,303 +1,303 @@
 [
-    {
-        "name": "Overworld",
-        "type": "static",
-        "img": "images/items/overworld.png",
-        "codes": "overworld"
-    },
-    {
-        "name": "Nether",
-        "type": "toggle",
-        "img": "images/items/nether.png",
-        "codes": "nether"
-    },
-    {
-        "name": "The End",
-        "type": "toggle",
-        "img": "images/items/end.png",
-        "codes": "end"
-    },
-    {
-        "name": "Village",
-        "type": "toggle",
-        "img": "images/items/village.png",
-        "codes": "village"
-    },
-    {
-        "name": "Pillager Outpost",
-        "type": "toggle",
-        "img": "images/items/outpost.png",
-        "codes": "outpost"
-    },
-    {
-        "name": "Bastion",
-        "type": "toggle",
-        "img": "images/items/bastion.png",
-        "codes": "bastion"
-    },
-    {
-        "name": "Nether Fortress",
-        "type": "toggle",
-        "img": "images/items/fortress.png",
-        "codes": "fortress"
-    },
-    {
-        "name": "End City",
-        "type": "toggle",
-        "img": "images/items/city.png",
-        "codes": "city"
-    },
-    {
-        "name": "Archery",
-        "type": "toggle",
-        "img": "images/items/archery.png",
-        "codes": "archery"
-    },
-    {
-        "name": "Progressive Resource Crafting",
-        "type": "progressive",
-        "stages": [
-            {
-                "img": "images/items/craftingA.png",
-                "codes": "crafting,crafting_ingots"
-            },
-            {
-                "img": "images/items/craftingB.png",
-                "codes": "crafting,crafting_blocks"
-            }
-        ]
-    },
-    {
-        "name": "Brewing",
-        "type": "toggle",
-        "img": "images/items/brewing.png",
-        "codes": "brewing"
-    },
-    {
-        "name": "Enchanting",
-        "type": "toggle",
-        "img": "images/items/enchanting.png",
-        "codes": "enchanting"
-    },
-    {
-        "name": "Bucket",
-        "type": "toggle",
-        "img": "images/items/bucket.png",
-        "codes": "bucket"
-    },
-    {
-        "name": "Flint and steel",
-        "type": "toggle",
-        "img": "images/items/flint.png",
-        "codes": "flint"
-    },
-    {
-        "name": "Bed",
-        "type": "toggle",
-        "img": "images/items/bed.png",
-        "codes": "bed"
-    },
-    {
-        "name": "Bottles",
-        "type": "toggle",
-        "img": "images/items/bottles.png",
-        "codes": "bottles"
-    },
-    {
-        "name": "Shield",
-        "type": "toggle",
-        "img": "images/items/shield.png",
-        "codes": "shield"
-    },
-    {
-        "name": "Fishing Rod",
-        "type": "toggle",
-        "img": "images/items/rod.png",
-        "codes": "rod"
-    },
-    {
-        "name": "Campfire",
-        "type": "toggle",
-        "img": "images/items/campfire.png",
-        "codes": "campfire"
-    },
-    {
-        "name": "Weapons",
-        "type": "progressive",
-        "stages": [
-            {
-                "img": "images/items/weapons.png",
-                "codes": "weapons,weapons_cobble"
-            },
-            {
-                "img": "images/items/weaponsB.png",
-                "codes": "weapons,weapons_iron"
-            },
-            {
-                "img": "images/items/weaponsC.png",
-                "codes": "weapons,weapons_diamond"
-            }
-        ]
-    },
-    {
-        "name": "Tools",
-        "type": "progressive",
-        "stages": [
-            {
-                "img": "images/items/tools.png",
-                "codes": "tools,tools_cobble"
-            },
-            {
-                "img": "images/items/toolsB.png",
-                "codes": "tools,tools_iron"
-            },
-            {
-                "img": "images/items/toolsC.png",
-                "codes": "tools,tools_diamond"
-            }
-        ]
-    },
-    {
-        "name": "Armor",
-        "type": "progressive",
-        "stages": [
-            {
-                "img": "images/items/armor.png",
-                "codes": "armor,armor_iron"
-            },
-            {
-                "img": "images/items/armorB.png",
-                "codes": "armor,armor_diamond"
-            }
-        ]
-    },
-    {
-        "name": "Netherite Scraps",
-        "type": "consumable",
-        "img": "images/items/scraps.png",
-        "codes": "scraps",
-        "max_quantity": 2
-    },
-    {
-        "name": "Ender Pearls",
-        "type": "consumable",
-        "img": "images/items/pearl.png",
-        "codes": "pearls",
-        "max_quantity": 4
-    },
-    {
-        "name": "Dragon Egg Shards",
-        "type": "consumable",
-        "img": "images/items/dragon_egg.png",
-        "codes": "dragon_egg_shards",
-        "max_quantity": 40
-    },
-    {
-        "name": "Shulker Box",
-        "type": "toggle",
-        "img": "images/items/shulker_box.png",
-        "codes": "shulker_box"
-    },
-    {
-        "name": "Spyglass",
-        "type": "toggle",
-        "img": "images/items/spyglass.png",
-        "codes": "spyglass"
-    },
-    {
-        "name": "Lead",
-        "type": "toggle",
-        "img": "images/items/lead.png",
-        "codes": "lead"
-    },
-    {
-        "name": "Channeling Book",
-        "type": "toggle",
-        "img": "images/items/enchanted_book.png",
-        "img_mods": "overlay|images/items/channeling.png",
-        "codes": "channeling"
-    },
-    {
-        "name": "Silk Touch Book",
-        "type": "toggle",
-        "img": "images/items/enchanted_book.png",
-        "img_mods": "overlay|images/items/silk_touch.png",
-        "codes": "silk_touch"
-    },
-    {
-        "name": "Piercing Book",
-        "type": "toggle",
-        "img": "images/items/enchanted_book.png",
-        "img_mods": "overlay|images/items/piercing.png",
-        "codes": "piercing"
-    },
-    {
-        "name": "Sharpness Book",
-        "type": "toggle",
-        "img": "images/items/enchanted_book.png",
-        "img_mods": "overlay|images/items/sharpness.png",
-        "codes": "sharpness"
-    },
-    {
-        "name": "Looting Book",
-        "type": "toggle",
-        "img": "images/items/enchanted_book.png",
-        "img_mods": "overlay|images/items/looting.png",
-        "codes": "looting"
-    },
-    {
-        "name": "Infinity Book",
-        "type": "toggle",
-        "img": "images/items/enchanted_book.png",
-        "img_mods": "overlay|images/items/infinity.png",
-        "codes": "infinity"
-    },
-    {
-        "name": "Structure Compass (Village)",
-        "type": "toggle",
-        "img": "images/items/compass.png",
-        "codes": "compass_village"
-    },
-    {
-        "name": "Structure Compass (Pillager Outpost)",
-        "type": "toggle",
-        "img": "images/items/compass.png",
-        "codes": "compass_outpost"
-    },
-    {
-        "name": "Structure Compass (Bastion)",
-        "type": "toggle",
-        "img": "images/items/compass.png",
-        "codes": "compass_bastion"
-    },
-    {
-        "name": "Structure Compass (Nether Fortress)",
-        "type": "toggle",
-        "img": "images/items/compass.png",
-        "codes": "compass_fortress"
-    },
-    {
-        "name": "Structure Compass (End City)",
-        "type": "toggle",
-        "img": "images/items/compass.png",
-        "codes": "compass_city"
-    },
-    {
-        "name": "Saddle",
-        "type": "toggle",
-        "img": "images/items/saddle.png",
-        "codes": "saddle"
-    },
-    {
-        "name": "Dragon",
-        "type": "toggle",
-        "img": "images/items/dragon.png",
-        "codes": "dragon"
-    },
-    {
-        "name": "Wither",
-        "type": "toggle",
-        "img": "images/items/wither.png",
-        "codes": "wither"
-    }
+  {
+    "name": "Overworld",
+    "type": "static",
+    "img": "images/items/overworld.png",
+    "codes": "overworld"
+  },
+  {
+    "name": "Nether",
+    "type": "toggle",
+    "img": "images/items/nether.png",
+    "codes": "nether"
+  },
+  {
+    "name": "The End",
+    "type": "toggle",
+    "img": "images/items/end.png",
+    "codes": "end"
+  },
+  {
+    "name": "Village",
+    "type": "toggle",
+    "img": "images/items/village.png",
+    "codes": "village"
+  },
+  {
+    "name": "Pillager Outpost",
+    "type": "toggle",
+    "img": "images/items/outpost.png",
+    "codes": "outpost"
+  },
+  {
+    "name": "Bastion",
+    "type": "toggle",
+    "img": "images/items/bastion.png",
+    "codes": "bastion"
+  },
+  {
+    "name": "Nether Fortress",
+    "type": "toggle",
+    "img": "images/items/fortress.png",
+    "codes": "fortress"
+  },
+  {
+    "name": "End City",
+    "type": "toggle",
+    "img": "images/items/city.png",
+    "codes": "city"
+  },
+  {
+    "name": "Archery",
+    "type": "toggle",
+    "img": "images/items/archery.png",
+    "codes": "archery"
+  },
+  {
+    "name": "Progressive Resource Crafting",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/craftingA.png",
+        "codes": "crafting,crafting_ingots"
+      },
+      {
+        "img": "images/items/craftingB.png",
+        "codes": "crafting,crafting_blocks"
+      }
+    ]
+  },
+  {
+    "name": "Brewing",
+    "type": "toggle",
+    "img": "images/items/brewing.png",
+    "codes": "brewing"
+  },
+  {
+    "name": "Enchanting",
+    "type": "toggle",
+    "img": "images/items/enchanting.png",
+    "codes": "enchanting"
+  },
+  {
+    "name": "Bucket",
+    "type": "toggle",
+    "img": "images/items/bucket.png",
+    "codes": "bucket"
+  },
+  {
+    "name": "Flint and steel",
+    "type": "toggle",
+    "img": "images/items/flint.png",
+    "codes": "flint"
+  },
+  {
+    "name": "Bed",
+    "type": "toggle",
+    "img": "images/items/bed.png",
+    "codes": "bed"
+  },
+  {
+    "name": "Bottles",
+    "type": "toggle",
+    "img": "images/items/bottles.png",
+    "codes": "bottles"
+  },
+  {
+    "name": "Shield",
+    "type": "toggle",
+    "img": "images/items/shield.png",
+    "codes": "shield"
+  },
+  {
+    "name": "Fishing Rod",
+    "type": "toggle",
+    "img": "images/items/rod.png",
+    "codes": "rod"
+  },
+  {
+    "name": "Campfire",
+    "type": "toggle",
+    "img": "images/items/campfire.png",
+    "codes": "campfire"
+  },
+  {
+    "name": "Weapons",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/weapons.png",
+        "codes": "weapons,weapons_cobble"
+      },
+      {
+        "img": "images/items/weaponsB.png",
+        "codes": "weapons,weapons_iron"
+      },
+      {
+        "img": "images/items/weaponsC.png",
+        "codes": "weapons,weapons_diamond"
+      }
+    ]
+  },
+  {
+    "name": "Tools",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/tools.png",
+        "codes": "tools,tools_cobble"
+      },
+      {
+        "img": "images/items/toolsB.png",
+        "codes": "tools,tools_iron"
+      },
+      {
+        "img": "images/items/toolsC.png",
+        "codes": "tools,tools_diamond"
+      }
+    ]
+  },
+  {
+    "name": "Armor",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/armor.png",
+        "codes": "armor,armor_iron"
+      },
+      {
+        "img": "images/items/armorB.png",
+        "codes": "armor,armor_diamond"
+      }
+    ]
+  },
+  {
+    "name": "Netherite Scraps",
+    "type": "consumable",
+    "img": "images/items/scraps.png",
+    "codes": "scraps",
+    "max_quantity": 2
+  },
+  {
+    "name": "Ender Pearls",
+    "type": "consumable",
+    "img": "images/items/pearl.png",
+    "codes": "pearls",
+    "max_quantity": 4
+  },
+  {
+    "name": "Dragon Egg Shards",
+    "type": "consumable",
+    "img": "images/items/dragon_egg.png",
+    "codes": "dragon_egg_shards",
+    "max_quantity": 40
+  },
+  {
+    "name": "Shulker Box",
+    "type": "toggle",
+    "img": "images/items/shulker_box.png",
+    "codes": "shulker_box"
+  },
+  {
+    "name": "Spyglass",
+    "type": "toggle",
+    "img": "images/items/spyglass.png",
+    "codes": "spyglass"
+  },
+  {
+    "name": "Lead",
+    "type": "toggle",
+    "img": "images/items/lead.png",
+    "codes": "lead"
+  },
+  {
+    "name": "Channeling Book",
+    "type": "toggle",
+    "img": "images/items/enchanted_book.png",
+    "img_mods": "overlay|images/items/channeling.png",
+    "codes": "channeling"
+  },
+  {
+    "name": "Silk Touch Book",
+    "type": "toggle",
+    "img": "images/items/enchanted_book.png",
+    "img_mods": "overlay|images/items/silk_touch.png",
+    "codes": "silk_touch"
+  },
+  {
+    "name": "Piercing Book",
+    "type": "toggle",
+    "img": "images/items/enchanted_book.png",
+    "img_mods": "overlay|images/items/piercing.png",
+    "codes": "piercing"
+  },
+  {
+    "name": "Sharpness Book",
+    "type": "toggle",
+    "img": "images/items/enchanted_book.png",
+    "img_mods": "overlay|images/items/sharpness.png",
+    "codes": "sharpness"
+  },
+  {
+    "name": "Looting Book",
+    "type": "toggle",
+    "img": "images/items/enchanted_book.png",
+    "img_mods": "overlay|images/items/looting.png",
+    "codes": "looting"
+  },
+  {
+    "name": "Infinity Book",
+    "type": "toggle",
+    "img": "images/items/enchanted_book.png",
+    "img_mods": "overlay|images/items/infinity.png",
+    "codes": "infinity"
+  },
+  {
+    "name": "Structure Compass (Village)",
+    "type": "toggle",
+    "img": "images/items/compass.png",
+    "codes": "compass_village"
+  },
+  {
+    "name": "Structure Compass (Pillager Outpost)",
+    "type": "toggle",
+    "img": "images/items/compass.png",
+    "codes": "compass_outpost"
+  },
+  {
+    "name": "Structure Compass (Bastion)",
+    "type": "toggle",
+    "img": "images/items/compass.png",
+    "codes": "compass_bastion"
+  },
+  {
+    "name": "Structure Compass (Nether Fortress)",
+    "type": "toggle",
+    "img": "images/items/compass.png",
+    "codes": "compass_fortress"
+  },
+  {
+    "name": "Structure Compass (End City)",
+    "type": "toggle",
+    "img": "images/items/compass.png",
+    "codes": "compass_city"
+  },
+  {
+    "name": "Saddle",
+    "type": "toggle",
+    "img": "images/items/saddle.png",
+    "codes": "saddle"
+  },
+  {
+    "name": "Dragon",
+    "type": "toggle",
+    "img": "images/items/dragon.png",
+    "codes": "dragon"
+  },
+  {
+    "name": "Wither",
+    "type": "toggle",
+    "img": "images/items/wither.png",
+    "codes": "wither"
+  }
 ]

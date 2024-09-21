@@ -1,38 +1,38 @@
-﻿[
-    {
-        "name": "all",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "maps/Achievements/all.png"
-    },
-    {
-        "name": "Minecraft",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "maps/Achievements/minecraft.png"
-    },
-    {
-        "name": "Nether",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "maps/Achievements/nether.png"
-    },
-    {
-        "name": "The End",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "maps/Achievements/end.png"
-    },
-    {
-        "name": "Adventure",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "maps/Achievements/adventure.png"
-    },
-    {
-        "name": "Husbandry",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "maps/Achievements/husbandry.png"
-    }
+[
+  {
+    "name": "all",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "maps/Achievements/all.png"
+  },
+  {
+    "name": "Minecraft",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "maps/Achievements/minecraft.png"
+  },
+  {
+    "name": "Nether",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "maps/Achievements/nether.png"
+  },
+  {
+    "name": "The End",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "maps/Achievements/end.png"
+  },
+  {
+    "name": "Adventure",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "maps/Achievements/adventure.png"
+  },
+  {
+    "name": "Husbandry",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "maps/Achievements/husbandry.png"
+  }
 ]

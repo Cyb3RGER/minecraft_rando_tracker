@@ -23,8 +23,8 @@ class Advancement:
         self.prev = prev
 
     def get_image_path(self):
-        return self.adv_name.lower().replace(" ", "_").replace(".", "_").replace(",", "_").replace("'", "_").replace("!", "_").replace("?", "_").replace(
-            "\"", "_") + ".png"
+        return self.adv_name.lower().replace(" ", "_").replace(".", "_").replace(",", "_").replace("'", "_").replace(
+            "!", "_").replace("?", "_").replace("\"", "_") + ".png"
 
     def get_offset(self):
         if self.shape == Shape.NORMAL:
@@ -33,8 +33,6 @@ class Advancement:
             return 9, 3
         else:
             return 3, 3
-
-
 
     def get_size(self):
         if self.shape == Shape.NORMAL:

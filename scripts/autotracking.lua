@@ -1,7 +1,7 @@
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
-AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY
+AUTOTRACKER_ENABLE_LOCATION_TRACKING = true
 -------------------------------------------------------
 
 print("")
@@ -28,7 +28,7 @@ function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
         print(string.format("called onClear"))
     end
-	SLOT_DATA = slot_data
+    SLOT_DATA = slot_data
     CUR_INDEX = -1
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -40,7 +40,7 @@ function onClear(slot_data)
                 if v[1]:sub(1, 1) == "@" then
                     obj.AvailableChestCount = obj.ChestCount
                 else
-                   obj.Active = false 
+                    obj.Active = false
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
                 print(string.format("onClear: could not find object for code %s", v[1]))
@@ -79,7 +79,7 @@ function onItem(index, item_id, item_name)
         print(string.format("called onItem: %s, %s, %s, %s", index, item_id, item_name, CUR_INDEX))
     end
     if index <= CUR_INDEX then return end
-    CUR_INDEX = index;    
+    CUR_INDEX = index;
     local v = ITEM_MAPPING[item_id]
     if not v then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -124,7 +124,7 @@ function onLocation(location_id, location_name)
     if not v[1] then
         return
     end
-    local obj = Tracker:FindObjectForCode(v[1])    
+    local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1

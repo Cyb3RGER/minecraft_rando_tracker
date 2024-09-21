@@ -1,184 +1,184 @@
 [
-    {
-        "name": "Combat Difficulty",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/settings/difficulty_easy.png",
-                "inherit_codes": false,
-                "codes": "difficulty,difficulty_easy"
-            },
-            {
-                "img": "images/settings/difficulty_normal.png",
-                "inherit_codes": false,
-                "codes": "difficulty,difficulty_normal"
-            },
-            {
-                "img": "images/settings/difficulty_hard.png",
-                "inherit_codes": false,
-                "codes": "difficulty,difficulty_hard"
-            }
-        ]
-    },
-    {
-        "name": "Structure Shuffle",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "codes": "struct_shuffle",
-        "stages": [
-            {
-                "img": "images/settings/on.png",
-                "inherit_codes": false,
-                "codes": "struct_shuffle_on"
-            },
-            {
-                "img": "images/settings/off.png",
-                "inherit_codes": false,
-                "codes": "struct_shuffle_off"
-            }
-        ]
-    },
-    {
-        "name": "Include hard advancements",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "codes": "hard",
-        "stages": [
-            {
-                "img": "images/settings/on.png",
-                "inherit_codes": false,
-                "codes": "hard_on"
-            },
-            {
-                "img": "images/settings/off.png",
-                "inherit_codes": false,
-                "codes": "hard_off"
-            }
-        ]
-    },
-    {
-        "name": "Include unreasonable advancements",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "codes": "unreasonable",
-        "stages": [
-            {
-                "img": "images/settings/on.png",
-                "inherit_codes": false,
-                "codes": "unreasonable_on"
-            },
-            {
-                "img": "images/settings/off.png",
-                "inherit_codes": false,
-                "codes": "unreasonable_off"
-            }
-        ]
-    },
-    {
-        "name": "Goal",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "codes": "goal",
-        "stages": [
-            {
-                "img": "images/settings/none.png",
-                "inherit_codes": false,
-                "codes": "goal_none"
-            },
-            {
-                "img": "images/settings/dragon.png",
-                "inherit_codes": false,
-                "codes": "goal_dragon"
-            },
-            {
-                "img": "images/settings/wither.png",
-                "inherit_codes": false,
-                "codes": "goal_wither"
-            },
-            {
-                "img": "images/settings/both.png",
-                "inherit_codes": false,
-                "codes": "goal_both"
-            }
-        ]
-    },
-    {
-        "name": "Include postgame advancements",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "codes": "postgame",
-        "stages": [
-            {
-                "img": "images/settings/on.png",
-                "inherit_codes": false,
-                "codes": "postgame_on"
-            },
-            {
-                "img": "images/settings/off.png",
-                "inherit_codes": false,
-                "codes": "postgame_off"
-            }
-        ]
-    },
-    {
-        "name": "Death Link",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "codes": "deathlink",
-        "stages": [
-            {
-                "img": "images/settings/on.png",
-                "inherit_codes": false,
-                "codes": "deathlink_on"
-            },
-            {
-                "img": "images/settings/off.png",
-                "inherit_codes": false,
-                "codes": "deathlink_off"
-            }
-        ]
-    },
-    {
-        "name": "Show Excluded",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "codes": "showexcluded",
-        "stages": [
-            {
-                "img": "images/settings/on.png",
-                "inherit_codes": false,
-                "codes": "showexcluded_on"
-            },
-            {
-                "img": "images/settings/off.png",
-                "inherit_codes": false,
-                "codes": "showexcluded_off"
-            }
-        ]
-    }
+  {
+    "name": "Combat Difficulty",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/difficulty_easy.png",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_easy"
+      },
+      {
+        "img": "images/settings/difficulty_normal.png",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_normal"
+      },
+      {
+        "img": "images/settings/difficulty_hard.png",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_hard"
+      }
+    ]
+  },
+  {
+    "name": "Structure Shuffle",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "struct_shuffle",
+    "stages": [
+      {
+        "img": "images/settings/on.png",
+        "inherit_codes": false,
+        "codes": "struct_shuffle_on"
+      },
+      {
+        "img": "images/settings/off.png",
+        "inherit_codes": false,
+        "codes": "struct_shuffle_off"
+      }
+    ]
+  },
+  {
+    "name": "Include hard advancements",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "hard",
+    "stages": [
+      {
+        "img": "images/settings/on.png",
+        "inherit_codes": false,
+        "codes": "hard_on"
+      },
+      {
+        "img": "images/settings/off.png",
+        "inherit_codes": false,
+        "codes": "hard_off"
+      }
+    ]
+  },
+  {
+    "name": "Include unreasonable advancements",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "unreasonable",
+    "stages": [
+      {
+        "img": "images/settings/on.png",
+        "inherit_codes": false,
+        "codes": "unreasonable_on"
+      },
+      {
+        "img": "images/settings/off.png",
+        "inherit_codes": false,
+        "codes": "unreasonable_off"
+      }
+    ]
+  },
+  {
+    "name": "Goal",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "goal",
+    "stages": [
+      {
+        "img": "images/settings/none.png",
+        "inherit_codes": false,
+        "codes": "goal_none"
+      },
+      {
+        "img": "images/settings/dragon.png",
+        "inherit_codes": false,
+        "codes": "goal_dragon"
+      },
+      {
+        "img": "images/settings/wither.png",
+        "inherit_codes": false,
+        "codes": "goal_wither"
+      },
+      {
+        "img": "images/settings/both.png",
+        "inherit_codes": false,
+        "codes": "goal_both"
+      }
+    ]
+  },
+  {
+    "name": "Include postgame advancements",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "postgame",
+    "stages": [
+      {
+        "img": "images/settings/on.png",
+        "inherit_codes": false,
+        "codes": "postgame_on"
+      },
+      {
+        "img": "images/settings/off.png",
+        "inherit_codes": false,
+        "codes": "postgame_off"
+      }
+    ]
+  },
+  {
+    "name": "Death Link",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "deathlink",
+    "stages": [
+      {
+        "img": "images/settings/on.png",
+        "inherit_codes": false,
+        "codes": "deathlink_on"
+      },
+      {
+        "img": "images/settings/off.png",
+        "inherit_codes": false,
+        "codes": "deathlink_off"
+      }
+    ]
+  },
+  {
+    "name": "Show Excluded",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "showexcluded",
+    "stages": [
+      {
+        "img": "images/settings/on.png",
+        "inherit_codes": false,
+        "codes": "showexcluded_on"
+      },
+      {
+        "img": "images/settings/off.png",
+        "inherit_codes": false,
+        "codes": "showexcluded_off"
+      }
+    ]
+  }
 ]

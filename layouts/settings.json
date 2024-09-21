@@ -1,120 +1,120 @@
 {
-    "settings_popup": {
-        "type": "dock",
-        "margin": 5,
+  "settings_popup": {
+    "type": "dock",
+    "margin": 5,
+    "content": [
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Combat Difficulty",
+        "header_background": "#3e4b57",
         "content": [
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Combat Difficulty",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "difficulty",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Goal",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "goal_dragon",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Structure Shuffle",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "struct_shuffle_on",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Include hard advancements",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "hard_off",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Include unreasonable advancements",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "unreasonable_off",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Include postgame advancements",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "postgame_off",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Death Link",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "deathlink_off",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "dock": "top",
-                "header": "Show Excluded",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "showexcluded_off",
-                        "h_alignment": "center",
-                        "v_alignment": "stretch"
-                    }
-                ]
-            }
+          {
+            "type": "item",
+            "item": "difficulty",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
         ]
-    }
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Goal",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item": "goal_dragon",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Structure Shuffle",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item": "struct_shuffle_on",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Include hard advancements",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item": "hard_off",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Include unreasonable advancements",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item": "unreasonable_off",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Include postgame advancements",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item": "postgame_off",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Death Link",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item": "deathlink_off",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Show Excluded",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item": "showexcluded_off",
+            "h_alignment": "center",
+            "v_alignment": "stretch"
+          }
+        ]
+      }
+    ]
+  }
 }
