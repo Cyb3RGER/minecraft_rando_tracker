@@ -1,3 +1,7 @@
+0.2.1:
+* Added Autotracking for Settings
+* removed Pinned Locations menu as it's not a thing
+
 0.2.0:
 * Added missing features (1.18 and 1.19 advancements, lead item, missing books)
 * Logic tweaks (Mostly can_adventure and Post Game Advancements)
