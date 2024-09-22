@@ -1,0 +1,59 @@
+{
+    "versions": [
+        {
+            "package_version": "0.2.1",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.1/minecraft_rando_tracker-0_2_1.zip",
+            "sha256": "62109247b93f6ade7dd5c71d79d9eaf0cc27cee225797d393b71d8d995998b04",
+            "changelog": [
+                "Added Autotracking for Settings by @palex00",
+                "Removed Pinned Locations menu as it's not a thing in Poptracker by @palex00",
+                "Added automatic updates"
+            ]
+        },
+        {
+            "package_version": "0.2.0",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.0/minecraft_rando_tracker-0_2_0.zip",
+            "sha256": "04bc506ac289d06778f32112df16753e3a05f8f1e199ecafe9a5a88d5bb040e2",
+            "changelog": [
+                "Added 1.18 and 1.19 advancements (by @AkumaGath17)",
+                "Logic tweaks and fixes (by @AkumaGath17)",
+                "New settings (by @AkumaGath17)"
+            ]
+        },
+        {
+            "package_version": "0.1.0",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.1.0/minecraft_rando_tracker-0_1_0.zip",
+            "sha256": "b2cc05e9a299800e0afca6dbd5998fb07c7cf922c5f3895210d1fc761393589b",
+            "changelog": [
+                "Added missing features (1.17.1 advancements, structure shuffle logic, dragon egg shards, etc.)",
+                "Logic rewrite",
+                "Added AP autotracking support for PopTracker",
+                "Changed Tracker name to \"Advancement Tracker\""
+            ]
+        },
+        {
+            "package_version": "0.0.2",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/v0.0.2/minecraft_rando_tracker.zip",
+            "sha256": "b9ba59c1c59eac30f17793e5281a98dd75c03e6a42f843b1239334f090739fe0",
+            "changelog": [
+                "Corrected logic:",
+                "\"Those were the days\" no longer require nether access",
+                "\"Cover me in debris\" can be validated out of logic with no scraps",
+                "\"A Balanced Diet\" cat be validated out of logic with no pearls",
+                "Changed order of unlocks",
+                "Added pinned locations",
+                "Made item icons bigger",
+                "Changed Tracker name to \"Achievement Tracker\""
+            ]
+        },
+        {
+            "package_version": "0.0.1",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.0.1/minecraft_rando_tracker.zip",
+            "sha256": "468f7e605434387da77428b930993f2f730f5169a79ebe29af6b26637b84ce7f",
+            "changelog": [
+                "Locations and items are added",
+                "No logic yet"
+            ]
+        }
+    ]
+}
