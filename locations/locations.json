@@ -1003,8 +1003,8 @@
           {
             "name": "Have ancient debris in your inventory.",
             "access_rules": [
-              "$bastion, [$nether], [$can_brew_potions], [$bed], $has_diamond_pickaxe",
-              "$nether, [$can_brew_potions], [$bed], $has_diamond_pickaxe"
+              "$bastion, [$nether], [$can_brew_potions], [$bed], [$has_diamond_pickaxe]",
+              "$nether, [$can_brew_potions], [$bed], [$has_diamond_pickaxe]"
             ],
             "visibility_rules": [
               "showexcluded_off",
