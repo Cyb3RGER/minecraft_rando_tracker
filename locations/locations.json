@@ -1098,8 +1098,8 @@
           {
             "name": "Have a full set of netherite armor in your inventory.",
             "access_rules": [
-              "[$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
-              "$bastion, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]"
+              "$nether, $armor_diamond, $has_all_scraps, $crafting_ingots, $has_diamond_pickaxe, $can_brew_potions, $bed, [$include_hard]",
+              "$bastion, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [$has_diamond_pickaxe], [$can_brew_potions], [$bed], [$include_hard]"
             ],
             "visibility_rules": [
               "showexcluded_off,hard_on",
@@ -2250,8 +2250,8 @@
           {
             "name": "Have a netherite hoe in your inventory.",
             "access_rules": [
-              "[$nether], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
-              "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
+              "$nether, $can_brew_potions, $bed, $has_diamond_pickaxe, $has_gold",
+              "$bastion, [$nether], [$can_brew_potions], [$bed], [$has_diamond_pickaxe], [$has_gold]"
             ],
             "visibility_rules": [
               "showexcluded_off",
