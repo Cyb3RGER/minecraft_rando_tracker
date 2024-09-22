@@ -458,7 +458,7 @@
         ],
         "sections": [
           {
-            "name": "Have a furnace in your inventory.",
+            "name": "Craft a furnace.",
             "access_rules": [
               "$crafting_ingots"
             ],
