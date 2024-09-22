@@ -458,9 +458,9 @@
         ],
         "sections": [
           {
-            "name": "Have a furnace in your inventory.",
+            "name": "Craft a furnace.",
             "access_rules": [
-              "[$crafting_ingots]"
+              "$crafting_ingots"
             ],
             "visibility_rules": [
               "showexcluded_off",
@@ -553,7 +553,7 @@
           {
             "name": "Craft a bookshelf.",
             "access_rules": [
-              "[$enchanting]"
+              "$enchanting"
             ],
             "visibility_rules": [
               "showexcluded_off",
@@ -767,7 +767,7 @@
           {
             "name": "Kill a ghast with it's own fireball.",
             "access_rules": [
-              "[$nether]"
+              "$nether"
             ],
             "visibility_rules": [
               "showexcluded_off",
@@ -1003,8 +1003,9 @@
           {
             "name": "Have ancient debris in your inventory.",
             "access_rules": [
-              "$bastion, [$nether], [$can_brew_potions], [$bed], [$has_diamond_pickaxe]",
-              "$nether, [$can_brew_potions], [$bed], [$has_diamond_pickaxe]"
+              "$bastion, [$nether], [$can_brew_potions], [$bed], $has_diamond_pickaxe",
+              "$nether, [$can_brew_potions], [$bed], $has_diamond_pickaxe",
+              "scraps"
             ],
             "visibility_rules": [
               "showexcluded_off",
@@ -1027,9 +1028,9 @@
           {
             "name": "Use a compass on a lodestone.",
             "access_rules": [
-              "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$has_gold]",
-              "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
-              "[$nether], $bastion, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
+              "[$nether], $tools_diamond, @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$has_gold]",
+              "[$nether], $tools_diamond, $scraps, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
+              "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
             ],
             "visibility_rules": [
               "showexcluded_off",
@@ -1098,9 +1099,9 @@
           {
             "name": "Have a full set of netherite armor in your inventory.",
             "access_rules": [
-              "$scraps, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
+              "$bastion, $scraps, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
               "$bastion, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$include_hard]",
-              "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.], [$include_hard]"
+              "$bastion, $tools_diamond, [$nether], [$armor_diamond], [$has_all_scraps], [$crafting_ingots], [@Overworld/Diamonds!/Have a diamond in your inventory.],  @Nether/Hidden in the Depths/Have ancient debris in your inventory. , [$include_hard]"
             ],
             "visibility_rules": [
               "showexcluded_off,hard_on",
@@ -2036,7 +2037,7 @@
           {
             "name": "Look at the ender dragon through a spyglass.",
             "access_rules": [
-              "$spyglass, [$has_spyglass], [$include_postgame|dragon]"
+              "$spyglass, [$has_spyglass], [$include_postgame|dragon], $_end, [$can_respawn_ender_dragon]"
             ],
             "visibility_rules": [
               "showexcluded_off,postgame_on",
@@ -2061,7 +2062,7 @@
           {
             "name": "Look at a ghast through a spyglass.",
             "access_rules": [
-              "$spyglass, [$has_spyglass]"
+              "$spyglass, [$has_spyglass], $nether"
             ],
             "visibility_rules": [
               "showexcluded_off",
@@ -2251,8 +2252,8 @@
           {
             "name": "Have a netherite hoe in your inventory.",
             "access_rules": [
-              "[$nether], @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$has_gold]",
-              "[$nether], $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
+              "[$nether], $bastion, @Nether/Hidden in the Depths/Have ancient debris in your inventory., $tools_diamond, [$has_gold]",
+              "[$nether], $bastion, $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
               "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
             ],
             "visibility_rules": [
@@ -2528,7 +2529,7 @@
         ],
         "sections": [
           {
-            "name": "Breed all 22 animals.",
+            "name": "Breed all 24 animals.",
             "access_rules": [
               "$nether, [$has_iron], [$can_adventure], [$include_hard], [$bucket]"
             ],
