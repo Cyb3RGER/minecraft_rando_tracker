@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.2",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.2/minecraft_rando_tracker-0_2_2.zip",
+            "sha256": "937fae9d18490cb081abbc3adef373550f72bbe6747c6242c7caa75799862b4f",
+            "changelog": [
+                "Updated logic by @palex00"
+            ]
+        },
+        {
             "package_version": "0.2.1",
             "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.1/minecraft_rando_tracker-0_2_1.zip",
             "sha256": "62109247b93f6ade7dd5c71d79d9eaf0cc27cee225797d393b71d8d995998b04",
