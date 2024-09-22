@@ -2,11 +2,11 @@ name: Pack validation
 on:
   workflow_dispatch:
   push:
-    paths:
-      - '**.json'
+    paths-ignore:
+      - '**/*.md'
   pull_request:
-    paths:
-      - '**.json'
+    paths-ignore:
+      - '**/*.md''
 jobs:
   validation:
     runs-on: ubuntu-latest
