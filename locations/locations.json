@@ -1029,8 +1029,8 @@
             "name": "Use a compass on a lodestone.",
             "access_rules": [
               "[$nether], $tools_diamond, @Nether/Hidden in the Depths/Have ancient debris in your inventory., [$has_gold]",
-              "[$nether], $tools_diamond, $scraps, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
-              "[$nether], $tools_diamond, $bastion, $tools_diamond, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
+              "[$nether], $tools_diamond, $scraps, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]",
+              "[$nether], $bastion, [@Nether/Hidden in the Depths/Have ancient debris in your inventory.], [$has_gold]"
             ],
             "visibility_rules": [
               "showexcluded_off",
