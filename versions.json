@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.2.3",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.3/minecraft_rando_tracker-0_2_3.zip",
+            "sha256": "b08fbe521bee90862ed583673e7e4c42e8f41ac12229a2afec738fc0b2da6f1d",
+            "changelog": [
+                "Fix \"Hidden in the Depths\" incorrectly requiring scraps by @Seatori",
+                "Fix \"Cover Me in Debris\" and \"Serious Dedication\" access logic by @Seatori"
+            ]
+        },
+        {
             "package_version": "0.2.2",
             "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.2/minecraft_rando_tracker-0_2_2.zip",
             "sha256": "937fae9d18490cb081abbc3adef373550f72bbe6747c6242c7caa75799862b4f",
