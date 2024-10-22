@@ -621,7 +621,7 @@
         ],
         "sections": [
           {
-            "name": "Eat a piece of cake.",
+            "name": "Craft a cake.",
             "access_rules": [
               "[$has_iron], [$bucket]"
             ],
@@ -978,7 +978,7 @@
           {
             "name": "Enter a nether fortress.",
             "access_rules": [
-              "[$is_struct_shuffle], [$fortress_access], [$_end], [$nether]",
+              "[$is_struct_shuffle], [$fortress_access], [$nether]",
               "$is_not_struct_shuffle, $fortress_access"
             ],
             "visibility_rules": [
@@ -1543,7 +1543,7 @@
           {
             "name": "Collide on a vertical side of a honey block when in air.",
             "access_rules": [
-              "[$campfire], [$bottles]"
+              "[$campfire], [$has_bottle]"
             ],
             "visibility_rules": [
               "showexcluded_off",
@@ -1588,7 +1588,7 @@
         ],
         "sections": [
           {
-            "name": "Visit all 52 biomes.",
+            "name": "Visit all 53 biomes.",
             "access_rules": [
               "[$can_adventure], [$include_unreasonable]"
             ],
@@ -2574,7 +2574,7 @@
           {
             "name": "Have an Allay drop a Cake at a Note Block.",
             "access_rules": [
-              "@Archipelago/The Lie/Eat a piece of cake., [$tools_iron], [$has_iron], [$outpost]"
+              "@Archipelago/The Lie/Craft a cake., [$tools_iron], [$has_iron], [$outpost]"
             ],
             "visibility_rules": [
               "showexcluded_off",
