@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.2.4",
+            "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.4/minecraft_rando_tracker-0_2_4.zip",
+            "sha256": "e7a0e9ee078f28015bdb13cfe81752671f83394c3ae12325e3a9c99f9b57801b",
+            "changelog": [
+                "Fix \"Sticky Situation\" access not requiring Progressive Crafting by @Seatori",
+                "Fix \"A Terrible Fortress\" access requiring End access by @Seatori",
+                "Fix \"The Lie\" and \"Adventuring Time\" descriptions by @Seatori",
+                "Fix \"Hot Topic\" and \"Two by Two\" not auto tracking"
+            ]
+        },
+        {
             "package_version": "0.2.3",
             "download_url": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/download/0.2.3/minecraft_rando_tracker-0_2_3.zip",
             "sha256": "b08fbe521bee90862ed583673e7e4c42e8f41ac12229a2afec738fc0b2da6f1d",
